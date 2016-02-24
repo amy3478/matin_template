@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="iso-8859-1"?>
-<extension type="template" version="1.0">
-	<name>MATIN</name>
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="template" version="2.5">
+	<name>matin 2016</name>
 	<creationDate>03/26/16</creationDate>
-	<author>MATIN</author>
+	<author>MATIN team</author>
 	<copyright>GNU/GPL</copyright>
 	<authorEmail>support@hubzero.org</authorEmail>
 	<authorUrl>http:///matin1.me.gatech.edu/</authorUrl>
-	<version>2.0</version>
+	<version>1.0</version>
 	<description>MATIN HUB template</description>
 	<files>
 		<filename>index.php</filename>
