@@ -1,0 +1,116 @@
+//
+// @package     MATIN
+// @file        templates/MATIN/scss/_grid.scss
+// @copyright   Copyright 2005-2015 HUBzero Foundation, LLC.
+// @license     http://opensource.org/licenses/MIT MIT
+//
+
+//
+// Footer
+// --------------------------------------------------
+
+//
+// @package     hubzero-cms
+// @file        templates/kimera/less/_footer.less
+// @copyright   Copyright 2005-2015 HUBzero Foundation, LLC.
+// @license     http://opensource.org/licenses/MIT MIT
+//
+
+//
+// Footer
+// --------------------------------------------------
+
+#footer {
+  padding: 0;
+  color: white;
+  font-size: 0.9em;
+  background: $light-dark;
+
+  h2 {
+    display: none;
+  }
+  h3 {
+    margin: 0;
+    padding: 0 0 1em 0;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0.15em;
+    color: $gray-light;
+  }
+  a {
+    color: white;
+    border-bottom: none;
+
+    &:hover {
+      color: $matin-blue;
+      border: none;
+    }
+  }
+  ul {
+    list-style: none;
+    margin: 0 0 20px 0;
+  }
+  li {
+    padding: 0.4em 0;
+    margin: 0;
+  }
+
+  // Ancillary navigation
+  #ancillary {
+    padding: $spacing;
+
+    a:before {
+      color: rgba(0, 0, 0, 0.2);
+      margin-right: 0.5em;
+    }
+  }
+
+  .inner {
+    clear: both;
+  }
+
+  #legalese {
+    padding: $spacing;
+    overflow: hidden;
+    // text-align: right;
+    font-size: 0.85em;
+    color: white;
+    background: $light-dark;
+    text-align: center;
+
+    li {
+      display: inline;
+      margin-left: 2em;
+      text-shadow: none;
+      color: white;
+    }
+    .policy {
+      position: absolute;
+      margin: 0 auto;
+      line-height: 1.2;
+    }
+    a {
+      color: white;
+
+      &:hover {
+        color: $matin-blue;
+        border: none;
+      }
+    }
+    @include clearfix;
+  }
+}
+
+@media (min-width: 70em) {
+  #footer {
+    #ancillary,
+    ul#legalese {
+      padding: $spacing $gutter;
+
+      .policy {
+        left: $gutter;
+      }
+    }
+  }
+}

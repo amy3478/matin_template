@@ -1,0 +1,244 @@
+//
+// @package     hubzero-cms
+// @file        templates/MATIN/scss/_masthead.scss
+// @copyright   Copyright 2016 MATIN Platform.
+// @license
+//
+
+//
+// Masthead
+// --------------------------------------------------
+
+#masthead {
+    backgrond: white;
+    color: $gray-darker;
+    margin: 0;
+    padding: 0;
+    z-index: 999;
+    border: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    h1 {
+        margin: 0;
+        padding: 0 $spacing;
+        float: left;
+        line-height: 1;
+        font-family: "GothamCondensed-Medium";
+        font-weight: normal;
+        font-style: normal;
+        font-size: 48px;
+
+        a {
+            position: relative;
+            display: block;
+            background: transparent;
+            border: none;
+            font-weight: normal;
+            font-style: normal;
+            padding: 0.5em 0;
+            color: $matin-blue;
+
+            &:hover {
+                text-decoration: none;
+                border: none;
+                // border-bottom: 2px solid $matin-blue;
+            }
+        }
+    }
+}
+
+@media (min-width: 50em){
+    #masthead {
+        position: fixed;
+    }
+}
+
+@media (min-width: 70em){
+    #masthead h1 {
+        padding-left: $gutter;
+    }
+}
+
+//
+// Prime Nav
+// --------------------------------------------------
+
+#account {
+    float: right;
+    list-style: none;
+    margin: 2px $spacing 0 0;
+    padding: 0;
+    position: relative;
+    z-index: 798;
+
+    &.loggedin {
+        cursor: pointer;
+    }
+
+    a:hover,
+    a:focus {
+        color: #dark-blue;
+    }
+
+    img {
+        margin: 0;
+        padding: 0;
+        border: none;
+    }
+
+    li {
+        list-style: none;
+        margin: 0 0 0 1em;
+        padding: 0;
+        float: left;
+        line-height: 1;
+
+        &>a {
+            display: block;
+            border: none;
+            border-radius: 4px;
+            color: $matin-blue;
+            line-height: 2.85;
+            font-size: 16px;
+            padding: 0 1em 0 1em;
+            overflow: hidden;
+            white-space: nowrap;
+
+            &:before {
+                content: "";
+                font-family: "Fontcons";
+                margin-right: 0.5em;
+                font-size: 1em;
+            }
+
+            &.icon-login {
+                background-color: $buzz-gold;
+                color: white;
+            }
+            &.icon-login:hover {
+                background-color: darken($buzz-gold, 26%);
+                color: white;
+            }
+
+            &.icon-search:before {
+                // content: "\f002";
+            }
+            &.icon-login:before {
+                // content: "\f007";
+            }
+            &.icon-register:before {
+                // content: "\270D";
+            }
+
+            &:hover,
+            &:focus {
+                color: #dark-blue;
+            }
+        }
+
+        ul {
+            position: absolute;
+            visibility: hidden;
+            right: 0;
+            top: 100%;
+            background: #222;
+            border-top: 2px solid #ccc;
+
+
+            li {
+                float: none;
+                border: none;
+                a {
+                    display: block;
+                    color: #bbb;
+                    position: relative;
+                    font-size: 1em;
+                    width: auto;
+                    line-height: 1;
+                    border: none;
+                    padding: 0.8em 1em;
+
+                    &:hover,
+                    &:focus {
+                        color: #fff;
+                    }
+                    &:before {
+                        content: "";
+                        display: inline-block;
+                        font-family: "Fontcons";
+                        font-size: 1.2em;
+                        width: 1em;
+                        height: 1em;
+                        margin-right: 0.2em;
+                    }
+                }
+
+                &#account-dashboard a:before {
+                    // content: "\f009";
+                }
+                &#account-profile a:before {
+                    // content: "\f007";
+                }
+                &#account-messages a:before {
+                    // content: "\2709";
+                }
+                &#account-logout a:before {
+                    // content: "\f011";
+                }
+            }
+        }
+
+        form {
+            display: none;
+        }
+
+        &:hover > ul,
+        &:focus > ul,
+        &:hover > form,
+        &:focus > form {
+            visibility: visible;
+            display: block;
+        }
+
+        &:hover img,
+        &focus img {
+            border: none;
+        }
+
+        &.loggedin>a {
+            width: auto;
+
+            &:before {
+                content: "";
+                display: none;
+            }
+        }
+    }
+
+    .account-details {
+        display: none;
+    }
+}
+
+@media (min-width: 70em){
+    #account {
+        margin: 20px $gutter 0 0;
+    }
+}
+
+.content-header {
+    padding-top: 20px;
+    padding-bottom: 4px;
+    background-color: rgba($matin-blue, 0.12);
+
+    .content-title {
+        color: $light-dark;
+        font-size: 24px;
+        font-weight: 400;
+        letter-spacing: 0;
+    }
+}
+

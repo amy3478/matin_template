@@ -1,0 +1,98 @@
+//
+// @package     MATIN
+// @file        templates/MATIN/scss/_buttons.scss
+// @copyright   Copyright 2016 MATIN platform.
+// @license
+//
+
+//
+// Buttons
+// --------------------------------------------------
+
+
+/*****************
+*  Base Styles
+******************/
+.btn {
+	display: inline-block;
+	padding: 0.5em 1em;
+
+	position: relative;
+
+	background: transparent;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+
+	color: $matin-blue;
+	font-size: 1.125em;
+	line-height: 1;
+	outline: 0;
+	text-align: center;
+	white-space: nowrap;
+	word-wrap: normal;
+	vertical-align: middle;
+	cursor: pointer;
+
+	@include transition(all 0.2s linear);
+	@include box-sizing(border-box);
+
+	&:hover,
+	&:focus,
+	&:visited:hover {
+		color: rgba($matin-blue, 0.56);
+	}
+
+	&:focus {
+		@include tab-focus;
+	}
+
+	&.active,
+	&:active {
+		outline: 0;
+	}
+
+	&.disabled,
+	&[disabled] {
+		cursor: default;
+	}
+}
+.btn-basic {
+	display: block;
+	height: 36px;
+	min-width: 64px;
+	padding: 0 16px;
+
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 36px;
+
+	background-color: #FFF;
+	border: 1px solid $light-blue;
+
+	@include border-radius(4px);
+
+	&:hover,
+	&:focus,
+	&:visited:hover {
+		border: 1px solid $light-blue;
+	}
+
+	&.disabled,
+	&[disabled] {
+		background-color: $gray-light;
+		color: $gray-dark;
+	}
+}
+.btn-brand {
+	background-color: $buzz-gold;
+	border-color: transparent;
+	color: #FFF;
+
+	&:hover,
+	&:focus,
+	&:visited:hover {
+		background-color: darken($buzz-gold,12%);
+		color: #FFF;
+	}
+}

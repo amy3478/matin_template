@@ -1,0 +1,118 @@
+/*********************************************
+* Define color variables
+*********************************************/
+/*********************************************
+* Define Global variables
+*********************************************/
+/*********************************************
+* Bases
+*********************************************/
+/*****************
+*  Utility Mixins
+******************/
+.clearfix {
+  zoom: 1; }
+  .clearfix:before, .clearfix:after {
+    display: table;
+    content: "";
+    line-height: 0; }
+  .clearfix:after {
+    clear: both; }
+
+.pull-right {
+  float: right; }
+
+.pull-left {
+  float: left; }
+
+/* Truncate multiple line text */
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0; }
+
+.horizontal-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+/*****************
+*  CSS3 PROPERTIES
+******************/
+#head {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  height: 80px;
+  vertical-align: middle;
+  background-color: white;
+  color: #606060;
+  z-index: 999;
+  border: none; }
+  #head .btn-basic {
+    margin-top: 22px;
+    width: 96px;
+    margin-right: 12px; }
+
+.container {
+  position: relative;
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto; }
+
+.inner-wrap {
+  position: relative;
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto; }
+
+.logo {
+  margin: 0 12px 0 0;
+  font-family: "GothamCondensed-Medium";
+  font-size: 48px;
+  color: #eeb211;
+  line-height: 80px; }
+
+.slogan {
+  margin-top: 1.25em;
+  font-size: 14px;
+  line-height: 18px; }
+
+#nav {
+  position: fixed;
+  top: 80px;
+  height: 64px;
+  width: 100%;
+  background-color: #FFF; }
+  #nav ul {
+    margin-left: 0; }
+  #nav .menu.menu {
+    float: none; }
+    #nav .menu.menu > li {
+      -webkit-box-sizing: boder-box;
+      -moz-box-sizing: boder-box;
+      box-sizing: boder-box;
+      margin: 0; }
+      #nav .menu.menu > li a {
+        padding: 0 0.75em;
+        line-height: 64px; }
+      #nav .menu.menu > li.active {
+        border-bottom: 2px solid #52a1de; }
+        #nav .menu.menu > li.active a {
+          color: #52a1de; }
+      #nav .menu.menu > li:hover a, #nav .menu.menu > li:focus a, #nav .menu.menu > li:visited:hover a,
+      #nav .menu.menu > li a:hover {
+        color: #52a1de; }
+      #nav .menu.menu > li:last-child {
+        float: right; }
+
+#search {
+  margin-top: 12px; }
+
+#content {
+  margin-top: 88px; }

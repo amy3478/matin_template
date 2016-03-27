@@ -1,0 +1,113 @@
+
+// Core variables and mixins
+@import "../../scss/_variables";
+
+// Mixins
+@import "../../scss/_mixins";
+
+
+#head {
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+
+    margin: 0;
+    padding: 0;
+	height: 80px;
+	vertical-align: middle;
+
+	background-color: white;
+    color: $gray-darker;
+    z-index: 999;
+    border: none;
+    
+    .btn-basic {
+    	margin-top: 22px;
+    	width: 96px;
+		margin-right: 12px;
+    }
+
+}
+
+.container {
+	position: relative;
+	width: 90%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.inner-wrap {
+    position: relative;
+	width: 90%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.logo {
+	margin: 0 12px 0 0;
+
+	font-family: "GothamCondensed-Medium";
+	font-size: 48px;
+	color: $buzz-gold;
+	line-height: 80px;
+}
+
+.slogan {
+	margin-top: 1.25em;
+	font-size: 14px;
+	line-height: 18px;
+}
+
+#nav {
+	position: fixed;
+	top: 80px;
+	height: 64px;
+	width: 100%;
+
+	background-color: #FFF;
+
+	ul {
+		margin-left: 0;
+	}
+
+	.menu.menu {
+		float: none;
+		> li {
+
+			@include box-sizing(boder-box);
+			margin: 0;
+			a {
+				padding: 0 0.75em;
+				line-height: 64px;
+			}
+			&.active {
+				border-bottom: 2px solid $matin-blue;
+				a {
+					color: $matin-blue;
+				}
+			}
+
+			&:hover a,
+			&:focus a,
+			&:visited:hover a,
+			a:hover {
+				color: $matin-blue;
+			}
+
+			&:last-child {
+				float: right;
+			}
+		}
+	}
+}
+
+#search {
+	margin-top: 12px;
+}
+
+#content {
+	margin-top: 88px;
+}
+
+

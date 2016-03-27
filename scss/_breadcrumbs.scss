@@ -1,0 +1,61 @@
+//
+// @package     MATIN
+// @file        templates/MATIN/less/_breadcrumbs.scss
+// @copyright   Copyright 2016 MATIN platform.
+// @license
+//
+
+//
+// Breadcrumbs
+// --------------------------------------------------
+
+#top {
+    padding-top: 4em;
+}
+
+#sub-masthead {
+    margin: 0;
+    padding: 0 $spacing;
+
+    vertical-align: baseline;
+    display: block;
+    font-size: $breadcrumb-font-size;
+
+    &.fixed {
+        margin: 4.75em 0, 0, 0;
+    }
+}
+
+// Breadcrumbs
+#trail {
+    margin: 0 7em 0 0;
+    padding: 0;
+    color: $light-dark;
+
+    span.pathway {
+        display: block;
+        padding: 0.95em 0 0.95em 0;
+        margin: 0;
+    }
+    a {
+        color: $matin-blue;
+        border-bottom: 1px solid transparent;
+        &:hover {
+            color: $dark-blue;
+            border-bottom: 1px solid $dark-blue;
+        }
+    }
+    .sep {
+        padding: 0 0.2em;
+    }
+}
+
+@media (min-width: 70em) {
+    #sub-masthead {
+        padding: 0 $gutter;
+    }
+}
+
+.breadcrumbs {
+    font-size: 12px;
+}

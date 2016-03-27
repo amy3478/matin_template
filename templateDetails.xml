@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<extension type="template" version="1.0">
+	<name>MATIN</name>
+	<creationDate>03/26/16</creationDate>
+	<author>MATIN</author>
+	<copyright>GNU/GPL</copyright>
+	<authorEmail>support@hubzero.org</authorEmail>
+	<authorUrl>http:///matin1.me.gatech.edu/</authorUrl>
+	<version>2.0</version>
+	<description>MATIN HUB template</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>css/browsers/ie8.css</filename>
+		<filename>css/browsers/ie9.css</filename>
+		<filename>css/pages/home.css</filename>
+		<filename>css/component.css</filename>
+		<filename>css/error.css</filename>
+		<filename>css/index.css</filename>
+		<filename>css/index.min.css</filename>
+		<filename>css/print.css</filename>
+		<filename>html/com_collections/collections.css</filename>
+		<filename>js/hub.js</filename>
+		<filename>js/html5.js</filename>
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.tpl_neutral.ini</language>
+	</languages>
+	<positions>
+		<position>footer</position>
+		<position>banner</position>
+		<position>welcome</position>
+		<position>left</position>
+		<position>right</position>
+		<position>helppane</position>
+		<position>user3</position>
+		<position>introblock</position>
+		<position>notices</position>
+		<position>search</position>
+	</positions>
+</extension>

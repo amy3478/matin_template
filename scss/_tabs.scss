@@ -1,0 +1,35 @@
+.tabs {
+	margin: 32px 0;
+	list-style: none;
+	border-bottom: 1px solid $gray-lighter;
+	.tab {
+		display: block;
+		position: relative;
+		float: left;
+		margin-bottom: -1px;
+
+		a {
+			display: block;
+			position: relative;
+			padding: 16px;
+			min-width: 64px;
+
+			border: 1px solid transparent;
+
+			color: $light-dark;
+			font-size: 14px;
+			line-height: 1.25;
+			text-align: center;
+		}
+
+		&.active {
+			a {	
+				background-color: #FFF;
+				border: 1px solid $gray-lighter;
+				border-top: 2px solid $buzz-gold;
+				border-bottom-color: transparent;
+				cursor: default;
+			}
+		}
+	}
+}

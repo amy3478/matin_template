@@ -1,0 +1,31 @@
+//
+// @package     hubzero-cms
+// @file        templates/MATIN/scss/_fonts.scss
+// @copyright   Copyright 2016 MATIN Platform.
+// @license
+//
+
+//
+// Masthead
+// --------------------------------------------------
+$pathFonts: "../fonts/";
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/roboto/Roboto-Regular.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Roboto-Medium';
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/roboto/Roboto-Medium.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Roboto-Light';
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/roboto/Roboto-Light.ttf") format('truetype');
+
+}

@@ -1,0 +1,82 @@
+//
+// @package     MATIN
+// @file        templates/MATIN/scss/index.scss
+// @copyright   Copyright 2016 MATIN Platform.
+// @license
+//
+
+/*********************************************
+* Define color variables
+*********************************************/
+$buzz-gold:                 #EEB211;
+$matin-blue:                #52A1DE;
+
+$dark-blue:                 #337ab7;
+$light-dark:                #343A42;
+$light-white:               #979797;
+$light-blue:				#D8DDE6;
+
+$gray-lighter:              #E5E5E5;
+$gray-light:                #C1C1C1;
+$gray-dark:                 #919191;
+$gray-darker:               #606060;
+
+/*********************************************
+* Define Global variables
+*********************************************/
+$spacing: 30px;
+$gutter: 60px;
+
+/*********************************************
+* Bases
+*********************************************/
+$font-family-sans-serif:   "Roboto", "Segoe UI", sans-serif !default;
+$font-family-light-sans-serif:    "Roboto-Light", "Segoe UI-Light", sans-serif-light !default;
+$font-family-medium-sans-serif:              "Roboto-Medium", "Segoe UI-Medium", sans-serif-medium !default;
+
+$font-family-base:                 $font-family-sans-serif !default;
+$font-size-base:                   14px !default;
+$font-size-large:                  18px !default;
+$font-size-small:                  12px !default;
+$font-line-height-base:            18px;
+$heading-large-font-family:        $font-family-sans-serif !default;
+$heading-large-font-height:        2 !default;
+$heading-large-font-size:          32px;
+
+$heading-medium-font-family:       $font-family-sans-serif !default;
+$heading-medium-height:            1.5 !default;
+$heading-medium-size:              24px;
+
+$heading-small-font-family:       $font-family-sans-serif !default;
+$heading-small-height:             1.125 !default;
+$heading-small-size:               18px;
+
+$heading-label-font-family:       $font-family-sans-serif !default;
+$heading-label-height:            0.75 !default;
+$heading-label-size:              12px;
+
+$body-default-font-family:       $font-family-sans-serif !default;
+$body-default-height:            1 !default;
+$body-default-size:              14px;
+
+$body-small-font-family:         $font-family-sans-serif !default;
+$body-small-height:              0.75 !default;
+$body-small-size:                12px;
+
+$breadcrumbs-font-family:        $font-family-sans-serif !default;
+$breadcrumb-font-size:           12px;
+
+$placeholderText:				 $gray-light;
+// Default 940px grid
+// -------------------------
+$gridColumns:             12;
+$gridColumnWidth:         50px; //50px
+$gridGutterWidth:         30px; //30px
+$gridRowWidth:            ($gridColumns * $gridColumnWidth) + ($gridGutterWidth * ($gridColumns - 1));
+
+// Fluid grid
+// -------------------------
+$fluidGridColumnWidth:    percentage($gridColumnWidth/$gridRowWidth);
+$fluidGridGutterWidth:    percentage($gridGutterWidth/$gridRowWidth);
+
+$gridColCollapseMargin: 2em;

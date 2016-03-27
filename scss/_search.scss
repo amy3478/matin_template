@@ -1,0 +1,36 @@
+#search {
+	// width: 240px;
+
+	[type="text"] {
+		width: 240px;
+		height: 40px;
+		padding-right: 40px;
+		padding-left: 16px;
+
+		font-size: 14px;
+
+		background-color: #FFF;
+		border: 1px solid $gray-light;
+		@include border-radius(20px);
+		@include box-sizing(border-box);
+
+		&:focus,
+		&:active,
+		&.active {
+			border-color: $matin-blue;
+		}
+	}
+
+	[type="submit"] {
+		position: absolute;
+		right: 0;
+		top: 0;
+
+		background: transparent;
+
+		font-size: 20px;
+		line-height: 24px;
+		color: $matin-blue;
+		border: 0;
+	}
+}

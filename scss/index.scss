@@ -1,0 +1,195 @@
+//
+// @package     MATIN
+// @file        templates/MATIN/scss/index.scss
+// @copyright   Copyright 2016 MATIN Platform.
+// @license
+//
+
+// Core variables and mixins
+@import "_variables";
+
+// Reset
+@import "../../../../core/assets/css/reset.css";
+
+// Fonts
+@import "_fonts";
+
+// Icons
+@import "../../../../core/assets/css/fontcons.css";
+@import "../../../../core/assets/css/icons.css";
+
+// Mixins
+@import "_mixins";
+
+// Root node
+html {
+  font-family: sens-serif;
+}
+
+body {
+    font-family: $font-family-sans-serif;
+    font-weight: 400;
+    font-size: $font-size-base;
+    line-height: $font-line-height-base;
+    color: $light-dark;
+    background-color: white;
+}
+
+// Links
+a,
+a:active,
+a:visited {
+    text-decoration: none;
+    color: $matin-blue;
+    border: none;
+}
+a:hover,
+a:visited:hover {
+    color: $dark-blue;
+}
+
+// Elements - List
+ul {
+    list-style: disc;
+    margin: 0 0 0 2em;
+    li {
+        margin: 0.5em 0;
+    }
+}
+ol {
+    list-style: decimal;
+    margin: 0 0 0 2em;
+    li {
+        margin: 0.5em 0;
+    }
+}
+
+// Elements - Misc.
+iframe {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+p {
+    margin: 1em 0;
+}
+hr {
+    clear: both;
+    height: 1px;
+    background: #ddd;
+    margin: 2em 0;
+    border: none;
+}
+abbr {
+    border-bottom: 1px dotted #333;
+}
+dfn {
+    font-style: italic;
+}
+dl dt {
+    font-weight: bold;
+}
+dl dd {
+    margin-left: 2em;
+}
+img {
+    border: 0;
+}
+
+// Headers
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+    color: #4C6085;
+    margin: 1em 0;
+}
+h2 {
+    line-height: 1.3;
+    font-size: 1.9em;
+    font-weight: 300;
+    letter-spacing: 0.15em;
+}
+h3 {
+    font-size: 1.4em;
+}
+h4,
+h5,
+h6 {
+    font-size: 1.1em;
+}
+
+// Blockquotes
+blockquote {
+    padding: 0 0 0 1.5em;
+    color: #888;
+    position: relative;
+    border-left: 5px solid #ccc;
+    border-left: 5px solid rgba(0, 0, 0, 0.2);
+    font-style: italic;
+    margin: 1.5em 0;
+}
+
+
+/* Table */
+table {
+    clear: left;
+    width: 100%;
+    text-align: left;
+    font-size: 1em;
+    border-collapse: collapse;
+    border-bottom: 1px dashed #dadada;
+
+    caption {
+        line-height: 1.6em;
+        padding: 0.4045084975em 0.61803399em;
+        text-align: left;
+        -ms-word-break: break-all;
+            word-break: break-all;
+        word-wrap: break-word;
+        -webkit-hyphens: auto;
+           -moz-hyphens: auto;
+                hyphens: auto;
+    }
+    th,
+    td {
+        vertical-align: top;
+        line-height: 1.6em;
+        padding: 0.4045084975em 0.61803399em;
+        border-bottom: 1px solid #dadada;
+    }
+    th {
+        font-weight: bold;
+        white-space: nowrap;
+    }
+}
+// Splash
+#splash .inner-wrap .inner .wrap {
+    position: relative;
+}
+
+// Masthead
+@import "_masthead";
+
+// Main Navigation
+@import "_menu";
+
+// Search box
+@import "_search";
+
+// breadcrubs
+@import "_breadcrumbs";
+
+// buttons
+@import "_buttons";
+
+// Tabs
+@import "_tabs";
+
+// Grid system
+@import "_grid";
+
+// Footer
+@import "_footer";
