@@ -13,6 +13,9 @@ defined('_HZEXEC_') or die();
 Html::behavior('framework', true);
 Html::behavior('modal');
 
+
+
+
 // Include global scripts
 $this->addScript($this->baseurl . '/templates/' . $this->template . '/js/hub.js?v=' . filemtime(__DIR__ . '/js/hub.js'));
 
