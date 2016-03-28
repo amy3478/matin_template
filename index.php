@@ -117,11 +117,19 @@ $this->setTitle(Config::get('sitename') . ' - ' . $this->getTitle());
 								<?php } ?>
 								</ul>
 							</nav>
-
-							<nav id="nav" class="main-navigation" role="main">
-								<jdoc:include type="modules" name="user3" />
-							</nav>
 						</header>
+						<div>
+							<nav id="nav" class="main-navigation" role="main">
+									<jdoc:include type="modules" name="user3" />
+							</nav>
+
+							<li>
+					      <a class="icon-search" href="<?php echo Route::url('index.php?option=com_search'); ?>" title="<?php echo Lang::txt('TPL_MATIN_SEARCH'); ?>"><?php echo Lang::txt('Search'); ?></a>
+					      <jdoc:include type="modules" name="search" />
+							</li>
+
+
+						</div>
 
 						<div id="sub-masthead">
 							<?php if ($this->countModules('helppane')) : ?>
@@ -134,12 +142,8 @@ $this->setTitle(Config::get('sitename') . ' - ' . $this->getTitle());
 
 							<div id="trail">
 								<?php if ($menu->getActive() == $menu->getDefault()) : ?>
-<<<<<<< HEAD
 									<span class="pathway"><?php echo Lang::txt('A Collaborative Platform
 for Material Science'); ?></span>
-=======
-									<span class="pathway"><?php echo Lang::txt('The open source <a href="_QQ_"matin1.me.gatech.edu"_QQ_">platform</a> for scientific and educational <a href="_QQ_"/community"_QQ_">collaboration</a>'); ?></span>
->>>>>>> 59f6e0b37c9e43ca79afc62bb9857e813ed22dac
 								<?php else: ?>
 									<jdoc:include type="modules" name="breadcrumbs" />
 								<?php endif; ?>
