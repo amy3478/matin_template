@@ -2,9 +2,9 @@
 /**
  * MATIN
  *
- * @package   hubzero-cms
- * @author    Shawn Rice <zooley@purdue.edu>
- * @copyright Copyright 2005-2015 Purdue University. All rights reserved.
+ * @package   matin_template
+ * @author    Cheryl (Xiaoxuan) Wang <wangxx@gatech.edu>
+ * @copyright Copyright 2016 Matin Platform. All rights reserved.
  * @license   http://www.gnu.org/licenses/lgpl-3.0.html LGPLv3
  */
 
