@@ -1,0 +1,8 @@
+# bower components
+bower_components/*
+
+# cache file
+cache/*
+
+# gulp modules
+node_modules/*

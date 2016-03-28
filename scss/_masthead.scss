@@ -114,11 +114,11 @@
                 font-size: 1em;
             }
 
-            &.icon-login {
+            &.icon-register {
                 background-color: $buzz-gold;
                 color: white;
             }
-            &.icon-login:hover {
+            &.icon-register:hover {
                 background-color: darken($buzz-gold, 26%);
                 color: white;
             }
@@ -126,11 +126,8 @@
             &.icon-search:before {
                 // content: "\f002";
             }
-            &.icon-login:before {
-                // content: "\f007";
-            }
             &.icon-register:before {
-                // content: "\270D";
+                // content: "\f007";
             }
 
             &:hover,
