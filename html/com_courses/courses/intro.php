@@ -74,8 +74,7 @@ if (count($this->notifications) > 0)
 			<div class="col span3 offset1 omega">
 				<div>
 					<a class="btn icon-browse" href="<?php echo Route::url('index.php?option=' . $this->option . '&controller=' . $this->controller . '&task=browse'); ?>">
-						<?php echo "try"; ?>
-
+						<?php echo "Lang::txt('COM_COURSES_BROWSE_CATALOG')"; ?>
 					</a>
 				</div>
 			</div>
