@@ -78,10 +78,10 @@
     color: #52A1DE;
   }
 
-  .home .fixed #account>ul>li>a.icon-login {
+  .home .fixed #account>ul>li>a.icon-register {
     color: white;
   }
-  .home .fixed #account>ul>li>a.icon-search {
+  .home .fixed #account>ul>li>a.icon-login {
     color: #52A1DE;
   }
 
@@ -817,11 +817,11 @@
   .home #nav ul.menu>li>a {
     color: #343A42;
   }
-  #account>ul>li>a.icon-login,
-  #account>ul>li>a.icon-login:hover {
+  #account>ul>li>a.icon-register,
+  #account>ul>li>a.icon-register:hover {
     color: white;
   }
-  #account>ul>li>a.icon-search {
+  #account>ul>li>a.icon-login {
     color: #52A1DE;
     border: 1px solid #D8DDE6;
     border-radius: 4px;
@@ -839,10 +839,10 @@
   .home #nav ul.menu>li>a:focus {
     color: #52A1DE;
   }
-  .home #account>ul>li>a.icon-login:hover {
+  .home #account>ul>li>a.icon-register:hover {
     color: white;
   }
-  .home #account>ul>li>a.icon-search:hover {
+  .home #account>ul>li>a.icon-login:hover {
     color: rgba(0, 176, 255, 0.26);
   }
   .home #nav ul.menu>li>a:focus{
