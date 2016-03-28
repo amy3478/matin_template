@@ -675,7 +675,7 @@ table {
         cursor: default; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000369}}
         #nav ul.menu li:hover > ul, #nav ul.menu li:focus > ul {
-          visiblity: visible; }
+          visibility: visible; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000376}}
     #nav ul.menu ul {
       visibility: hidden;
