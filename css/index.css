@@ -949,9 +949,12 @@ table {
 .contentpaneopen,
 section.section {
   background: #f9f9f9;
-  padding: 30px; }
+  padding: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003169}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003170}}
 .subject .contentpaneopen {
   padding: 0; }
 
@@ -963,7 +966,7 @@ section.section {
 		margin: @spacing;
 	}
 }*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003181}}
 .contentpaneopen:after {
   content: "";
   display: table;
@@ -971,88 +974,88 @@ section.section {
   clear: both; }
 
 @media (min-width: 60em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003191}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003192}}
   section.section {
     display: table;
     vertical-align: top;
     width: 100%;
     table-layout: fixed; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003197}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003198}}
     section.section > .section-inner {
       display: table-row; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003202}}
     section.section .subject,
     section.section .aside {
       display: table-cell;
       vertical-align: top;
       margin: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003208}}
     section.section .subject {
       padding: 0 30px 0 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003210}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003211}}
     section.section .aside {
       width: 260px;
       min-width: 260px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003215}}
     section.section .aside + .subject {
       padding: 0 0 0 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003221}}
   #page_content section.section {
     display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003224}}
     #page_content section.section > .section-inner {
       display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003228}}
     #page_content section.section .subject,
     #page_content section.section .aside {
       display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003232}}
     #page_content section.section .subject {
       padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003235}}
     #page_content section.section .aside {
       width: auto;
       min-width: auto;
       padding: 30px 0 0 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003239}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003240}}
     #page_content section.section .aside + .subject {
       padding: 30px 0 0 0; } }
 @media (min-width: 70em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003248}}
   section.section {
     padding: 30px 60px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003250}}
     section.section .subject {
       padding: 0 60px 0 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003252}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003253}}
     section.section .aside + .subject {
       padding: 0 0 0 60px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003256}}
     section.section .aside {
       width: 320px;
       min-width: 320px;
       padding: 30px 60px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003262}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003263}}
   #page_content section.section {
     display: table; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003266}}
     #page_content section.section > .section-inner {
       display: table-row; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003269}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003270}}
     #page_content section.section .subject,
     #page_content section.section .aside {
       display: table-cell; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003273}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003274}}
     #page_content section.section .subject {
       padding: 0 30px 0 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003277}}
     #page_content section.section .aside {
       width: 260px;
       min-width: 260px;
       padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003281}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003282}}
     #page_content section.section .aside + .subject {
       padding: 0 0 0 30px; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_search\.scss}line{font-family:\000034}}
