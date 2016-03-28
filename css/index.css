@@ -539,12 +539,17 @@ table {
         font-family: "Fontcons";
         margin-right: 0.5em;
         font-size: 1em; }
+<<<<<<< 1aa62b7b91a04080dbbadd3eba873691041dc343
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003117}}
       #account li > a.icon-login {
         background-color: #eeb211;
         color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003121}}
       #account li > a.icon-login:hover {
+      #account li > a.icon-register {
+        background-color: #EEB211;
+        color: white; }
+      #account li > a.icon-register:hover {
         background-color: #725508;
         color: white; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003136}}
