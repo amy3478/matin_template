@@ -697,7 +697,7 @@ table {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000391}}
         #nav ul.menu ul li:hover > a, #nav ul.menu ul li:focus > a {
           color: #52a1de;
-          background-color: #d8dde6; }
+          background-color: rgba(82, 161, 222, 0.2); }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000398}}
       #nav ul.menu ul a {
         padding: 16px 24px;
