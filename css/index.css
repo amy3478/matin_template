@@ -1276,14 +1276,14 @@ section.section {
   .btn-basic[class^="icon-"], header [class^="icon-"].btn,
   #content-header-extra [class^="icon-"].btn, .btn-basic[class*=" icon-"], header [class*=" icon-"].btn,
   #content-header-extra [class*=" icon-"].btn {
-    padding: 0.7em 0.91em 0.7em 1.91em; }
+    padding-left: 1.91em; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003121}}
   .btn-basic[class^="icon-"]:before, header [class^="icon-"].btn:before,
   #content-header-extra [class^="icon-"].btn:before, .btn-basic[class*=" icon-"]:before, header [class*=" icon-"].btn:before,
   #content-header-extra [class*=" icon-"].btn:before {
     margin-right: 0.2em;
     font-family: "Fontcons";
-    line-height: 2.4;
+    line-height: 36px;
     padding: 0 0.3em 0 0.7em;
     position: absolute;
     top: 0;
