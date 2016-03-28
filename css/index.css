@@ -7,9 +7,64 @@
 /*********************************************
 * Bases
 *********************************************/
-@import url(../../../../core/assets/css/reset.css);
-@import url(../../../../core/assets/css/fontcons.css);
-@import url(../../../../core/assets/css/icons.css);
+/**
+ * @package     hubzero-cms
+ * @file        media/hubzero/css/reset.css
+ * @copyright   Copyright 2005-2015 HUBzero Foundation, LLC.
+ * @license     http://opensource.org/licenses/MIT MIT
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+table th {
+  text-align: left; }
+
+i, em {
+  font-style: italic; }
+
+b, strong {
+  font-weight: bold; }
+
 @font-face {
   font-family: 'Roboto';
   font-style: normal;
@@ -25,6 +80,131 @@
   font-style: normal;
   font-weight: 300;
   src: url("../fonts/roboto/Roboto-Light.ttf") format("truetype"); }
+/*
+* @package     hubzero-cms
+* @file        media/system/css/fontcons.css
+* @copyright   Copyright 2005-2015 HUBzero Foundation, LLC.
+* @license     http://opensource.org/licenses/MIT MIT
+* @description Fontcons
+               -------------------------------------------------------
+               Based off of Font Awesome
+                  http://fortawesome.github.com/Font-Awesome/
+                  Email: dave@davegandy.com
+*/
+@font-face {
+  font-family: 'Fontcons';
+  src: url("/core/assets/css/fonts/fontcons-webfont.eot");
+  src: url("/core/assets/css/fonts/fontcons-webfont.eot?#iefix") format("embedded-opentype"), url("/core/assets/css/fonts/fontcons-webfont.woff") format("woff"), url("/core/assets/css/fonts/fontcons-webfont.ttf") format("truetype"), url("/core/assets/css/fonts/fontcons-webfont.svg#FontconsRegular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+/*
+* @package     hubzero-cms
+* @file        media/system/css/icons.css
+* @copyright   Copyright 2005-2015 HUBzero Foundation, LLC.
+* @license     http://opensource.org/licenses/MIT MIT
+* @description Pre-defined icon classes
+*/
+*[class^="icon-"]:before,
+*[class*=" icon-"]:before {
+  font-family: "Fontcons";
+  margin-right: 0.2em; }
+
+.icon-file:before {
+  content: "\f016"; }
+
+.icon-cart:before {
+  content: "\f07a"; }
+
+.icon-basket:before {
+  content: "\f04d"; }
+
+.icon-warning:before {
+  content: "\26A0"; }
+
+.icon-success:before {
+  content: "\f058"; }
+
+.icon-info:before {
+  content: "\f05a"; }
+
+.icon-error,
+.icon-danger:before {
+  content: "\f094"; }
+
+.icon-email:before {
+  content: "\2709"; }
+
+.icon-add:before {
+  content: "\2295"; }
+
+.icon-delete:before {
+  content: "\f014"; }
+
+.icon-edit:before {
+  content: "\270E"; }
+
+.icon-category,
+.icon-folder:before {
+  content: "\f07b"; }
+
+.icon-search:before {
+  content: "\f002"; }
+
+.icon-stats:before {
+  content: "\f004"; }
+
+.icon-tags:before {
+  content: "\f02c"; }
+
+.icon-tag:before {
+  content: "\f02b"; }
+
+.icon-user:before {
+  content: "\f007"; }
+
+.icon-group:before {
+  content: "\f042"; }
+
+.icon-archive:before {
+  content: "\f005"; }
+
+.icon-config:before {
+  content: "\2699"; }
+
+.icon-abuse:before {
+  content: "\2298"; }
+
+.icon-tag:before {
+  content: "\f02b"; }
+
+.icon-feed:before {
+  content: "\f029"; }
+
+.icon-browse:before {
+  content: "\f00b"; }
+
+.icon-history:before,
+.icon-time:before {
+  content: "\f017"; }
+
+.icon-reply:before {
+  content: "\f08a"; }
+
+.icon-date:before {
+  content: "\f073"; }
+
+.icon-prev:before {
+  content: "\2190"; }
+
+.icon-next:before {
+  content: "\2192"; }
+
+.icon-main:before {
+  content: "\f071"; }
+
+.icon-points:before {
+  content: "\f006"; }
+
 /*****************
 *  Utility Mixins
 ******************/
@@ -58,6 +238,9 @@
 
 /*****************
 *  CSS3 PROPERTIES
+******************/
+/*****************
+*  GRID SYSTEM
 ******************/
 html {
   font-family: sens-serif; }
@@ -236,7 +419,7 @@ table {
     cursor: pointer; }
   #account a:hover,
   #account a:focus {
-    color: #dark-blue; }
+    color: #337ab7; }
   #account img {
     margin: 0;
     padding: 0;
@@ -269,7 +452,7 @@ table {
         background-color: #725508;
         color: white; }
       #account li > a:hover, #account li > a:focus {
-        color: #dark-blue; }
+        color: #337ab7; }
     #account li ul {
       position: absolute;
       visibility: hidden;
@@ -626,17 +809,114 @@ table {
       border-bottom-color: transparent;
       cursor: default; }
 
-.grid .col {
-  display: block;
-  width: 100%;
-  min-height: 1em; }
-  .grid .col.omega {
-    margin-right: 0; }
+.grid {
+  max-width: 100%;
+  zoom: 1; }
+  .grid:before, .grid:after {
+    display: table;
+    content: "";
+    line-height: 0; }
+  .grid:after {
+    clear: left; }
+  .grid .col {
+    display: block;
+    width: 100%;
+    min-height: 1em; }
+    .grid .col.omega {
+      margin-right: 0; }
+  .grid [class*="span"] {
+    float: left;
+    margin-right: 3.225806%; }
+
+.grid .span-whole,
+.grid .span12 {
+  width: 100%; }
+
+.grid .span11 {
+  width: 91.397849%; }
+
+.grid .span10 {
+  width: 82.795699%; }
+
+.grid .span-three-quarters,
+.grid .span9 {
+  width: 74.193548%; }
+
+.grid .span-two-thirds,
+.grid .span8 {
+  width: 65.591398%; }
+
+.grid .span7 {
+  width: 56.989247%; }
+
+.grid .span-half,
+.grid .span6 {
+  width: 48.387097%; }
+
+.grid .span5 {
+  width: 39.784946%; }
+
+.grid .span-third,
+.grid .span4 {
+  width: 31.182796%; }
+
+.grid .span-quarter,
+.grid .span3 {
+  width: 22.580645%; }
+
+.grid .span2 {
+  width: 13.978495%; }
+
+.grid .span1 {
+  width: 5.376344%; }
+
+.grid .offset-whole,
+.grid .offset12 {
+  margin-left: 103.225806%; }
+
+.grid .offset11 {
+  margin-left: 94.623656%; }
+
+.grid .offset10 {
+  margin-left: 86.021505%; }
+
+.grid .offset-three-quarters,
+.grid .offset9 {
+  margin-left: 77.419355%; }
+
+.grid .offset-two-thirds,
+.grid .offset8 {
+  margin-left: 68.817204%; }
+
+.grid .offset7 {
+  margin-left: 60.215054%; }
+
+.grid .offset-half,
+.grid .offset6 {
+  margin-left: 51.612903%; }
+
+.grid .offset5 {
+  margin-left: 43.010753%; }
+
+.grid .offset-third,
+.grid .offset4 {
+  margin-left: 34.408602%; }
+
+.grid .offset-quarter,
+.grid .offset3 {
+  margin-left: 25.806452%; }
+
+.grid .offset2 {
+  margin-left: 17.204301%; }
+
+.grid .offset1 {
+  margin-left: 8.602151%; }
 
 @media only screen and (max-width: 1023px) and (min-width: 900px) {
   .grid:not(.nobreak) .col:first-child:nth-last-child(6),
   .grid:not(.nobreak) .col:first-child:nth-last-child(6) ~ .col {
-    float: left; }
+    float: left;
+    width: 31.182796%; }
 
   .grid:not(.nobreak) .col:first-child:nth-last-child(6) ~ .col:nth-child(3n) {
     margin-right: 0; }
@@ -646,11 +926,16 @@ table {
     margin-bottom: 2em; }
 
   .grid:not(.nobreak) .col:first-child:nth-last-child(6) ~ .col:nth-child(4) {
-    clear: left; } }
+    clear: left; }
+
+  .grid.break6 > .col {
+    float: none !important;
+    width: 100% !important; } }
 @media only screen and (max-width: 1000px) and (min-width: 501px) {
   .grid:not(.nobreak) .col:first-child:nth-last-child(4),
   .grid:not(.nobreak) .col:first-child:nth-last-child(4) ~ .col {
-    float: left; }
+    float: left;
+    width: 48.387097%; }
 
   .grid:not(.nobreak) .col:first-child:nth-last-child(4) ~ .col:nth-child(2) {
     margin-right: 0; }
@@ -660,8 +945,18 @@ table {
     margin-bottom: 2em; }
 
   .grid:not(.nobreak) .col:first-child:nth-last-child(4) ~ .col:nth-child(3) {
-    clear: left; } }
+    clear: left; }
+
+  .grid.break6 > .col,
+  .grid.break4 > .col {
+    float: none !important;
+    width: 100% !important; } }
 @media only screen and (max-width: 900px) and (min-width: 501px) {
+  .grid:not(.nobreak) .col:first-child:nth-last-child(3),
+  .grid:not(.nobreak) .col:first-child:nth-last-child(3) ~ .col {
+    float: none !important;
+    width: 100% !important; }
+
   .grid:not(.nobreak) .col:first-child:nth-last-child(3),
   .grid:not(.nobreak) .col:first-child:nth-last-child(3) ~ .col:nth-child(-n + 2) {
     margin-bottom: 2em; }
@@ -674,7 +969,8 @@ table {
 
   .grid:not(.nobreak) .col:first-child:nth-last-child(6),
   .grid:not(.nobreak) .col:first-child:nth-last-child(6) ~ .col {
-    float: left; }
+    float: left;
+    width: 48.387097%; }
 
   .grid:not(.nobreak) .col:first-child:nth-last-child(6) ~ .col:nth-child(2n) {
     margin-right: 0; }
@@ -685,7 +981,17 @@ table {
 
   .grid:not(.nobreak) .col:first-child:nth-last-child(6) ~ .col:nth-child(3),
   .grid:not(.nobreak) .col:first-child:nth-last-child(6) ~ .col:nth-child(5) {
-    clear: left; } }
+    clear: left; }
+
+  .grid.break6 > .col,
+  .grid.break4 > .col,
+  .grid.break3 > .col {
+    float: none !important;
+    width: 100% !important; } }
+@media only screen and (max-width: 500px) {
+  .grid:not(.nobreak) .col {
+    float: none !important;
+    width: 100% !important; } }
 #footer {
   padding: 0;
   color: white;

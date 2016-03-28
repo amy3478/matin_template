@@ -80,7 +80,7 @@
 
     a:hover,
     a:focus {
-        color: #dark-blue;
+        color: $dark-blue;
     }
 
     img {
@@ -135,7 +135,7 @@
 
             &:hover,
             &:focus {
-                color: #dark-blue;
+                color: $dark-blue;
             }
         }
 

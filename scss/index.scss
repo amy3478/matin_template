@@ -9,17 +9,19 @@
 @import "_variables";
 
 // Reset
-@import "../../../../core/assets/css/reset.css";
+@import "_reset";
 
 // Fonts
 @import "_fonts";
 
+
 // Icons
-@import "../../../../core/assets/css/fontcons.css";
-@import "../../../../core/assets/css/icons.css";
+@import "_fontcons";
+@import "_icons";
 
 // Mixins
 @import "_mixins";
+
 
 // Root node
 html {
@@ -63,6 +65,7 @@ ol {
         margin: 0.5em 0;
     }
 }
+
 
 // Elements - Misc.
 iframe {

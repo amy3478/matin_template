@@ -299,3 +299,28 @@
 	overflow: auto; // Safari fix
 }
 
+/*****************
+*  GRID SYSTEM
+******************/
+
+@mixin offset($cols) {
+	margin-left: (($fluidGridColumnWidth * $cols) + ($fluidGridGutterWidth * ($cols - 1)) + ($fluidGridGutterWidth * 2) - $fluidGridGutterWidth);
+	// *margin-left: (($fluidGridColumnWidth * $cols) + ($fluidGridGutterWidth * ($cols - 1)) - (.5 / $gridRowWidth * 100 * 1%) + ($fluidGridGutterWidth*2) - (.5 / $gridRowWidth * 100 * 1%) - $fluidGridGutterWidth);
+}
+
+@mixin offset-first-child($cols) {
+	margin-left: ($fluidGridColumnWidth * $cols) + ($fluidGridGutterWidth * ($cols - 1)) + ($fluidGridGutterWidth);
+	*margin-left: ($fluidGridColumnWidth * $cols) + ($fluidGridGutterWidth * ($cols - 1)) - (.5 / $gridRowWidth * 100 * 1%) + $fluidGridGutterWidth - (.5 / $gridRowWidth * 100 * 1%);
+}
+
+@mixin span($cols) {
+	width: ($fluidGridColumnWidth * $cols) + ($fluidGridGutterWidth * ($cols - 1));
+	// *width: ($fluidGridColumnWidth * $cols) + ($fluidGridGutterWidth * ($cols - 1)) - (.5 / $gridRowWidth * 100 * 1%);
+}
+
+@mixin basicColumn {
+  float: none !important;
+  width: 100% !important;
+}
+
+

@@ -1,119 +1,122 @@
 //
-// @package     MATIN
-// @file        templates/MATIN/scss/_grid.scss
-// @copyright   Copyright 2005-2015 HUBzero Foundation, LLC.
-// @license     http://opensource.org/licenses/MIT MIT
+// $package     MATIN
+// $file        templates/MATIN/scss/_grid.scss
+// $copyright   Copyright 2005-2015 HUBzero Foundation, LLC.
+// $license     http://opensource.org/licenses/MIT MIT
 //
 
 //
 // Grid system
 // --------------------------------------------------
 
-  .grid {
-    // #grid > .grid;
+.grid {
+  max-width: 100%;
+  @include clearfix(left);
 
-    .col {
-      display: block;
-      width: 100%;
-      min-height: 1em;
+  .col {
+    display: block;
+    width: 100%;
+    min-height: 1em;
 
-      &.omega {
-        margin-right: 0;
-      }
-    }
-
-    [class*="span"] {
-      // #grid > .col;
+    &.omega {
+      margin-right: 0;
     }
   }
+
+  [class*="span"] {
+    float: left;
+    margin-right: $fluidGridGutterWidth;
+    // *margin-right: $fluidGridGutterWidth - (.5 / $gridRowWidth);
+  }
+}
 
 // Spans
-  .grid .span-whole,
-  .grid .span12 {
-    // #grid > .span(12);
-  }
-  .grid .span11 {
-    // #grid > .span(11);
-  }
-  .grid .span10 {
-    // #grid > .span(10);
-  }
-  .grid .span-three-quarters,
-  .grid .span9 {
-    // #grid > .span(9);
-  }
-  .grid .span-two-thirds,
-  .grid .span8 {
-    // #grid > .span(8);
-  }
-  .grid .span7 {
-    // #grid > .span(7);
-  }
-  .grid .span-half,
-  .grid .span6 {
-    // #grid > .span(6);
-  }
-  .grid .span5 {
-    // #grid > .span(5);
-  }
-  .grid .span-third,
-  .grid .span4 {
-    // #grid > .span(4);
-  }
-  .grid .span-quarter,
-  .grid .span3 {
-    // #grid > .span(3);
-  }
-  .grid .span2 {
-    // #grid > .span(2);
-  }
-  .grid .span1 {
-    // #grid > .span(1);
-  }
+.grid .span-whole,
+.grid .span12 {
+  @include span(12);
+}
+.grid .span11 {
+  @include span(11);
+}
+.grid .span10 {
+  @include span(10);
+}
+.grid .span-three-quarters,
+.grid .span9 {
+  @include span(9);
+}
+.grid .span-two-thirds,
+.grid .span8 {
+  @include span(8);
+}
+.grid .span7 {
+  @include span(7);
+}
+.grid .span-half,
+.grid .span6 {
+  @include span(6);
+}
+.grid .span5 {
+  @include span(5);
+}
+.grid .span-third,
+.grid .span4 {
+  @include span(4);
+}
+.grid .span-quarter,
+.grid .span3 {
+  @include span(3);
+}
+.grid .span2 {
+  @include span(2);
+}
+.grid .span1 {
+  @include span(1);
+}
 
 // Offsets
-  // .grid .offset-whole,
-  // .grid .offset12 {
-  //   #grid > .offset(12);
-  // }
-  // .grid .offset11 {
-  //   #grid > .offset(11);
-  // }
-  // .grid .offset10 {
-  //   #grid > .offset(10);
-  // }
-  // .grid .offset-three-quarters,
-  // .grid .offset9 {
-  //   #grid > .offset(9);
-  // }
-  // .grid .offset-two-thirds,
-  // .grid .offset8 {
-  //   #grid > .offset(8);
-  // }
-  // .grid .offset7 {
-  //   #grid > .offset(7);
-  // }
-  // .grid .offset-half,
-  // .grid .offset6 {
-  //   #grid > .offset(6);
-  // }
-  // .grid .offset5 {
-  //   #grid > .offset(5);
-  // }
-  // .grid .offset-third,
-  // .grid .offset4 {
-  //   #grid > .offset(4);
-  // }
-  // .grid .offset-quarter,
-  // .grid .offset3 {
-  //   #grid > .offset(3);
-  // }
-  // .grid .offset2 {
-  //   #grid > .offset(2);
-  // }
-  // .grid .offset1 {
-  //   #grid > .offset(1);
-  // }
+.grid .offset-whole,
+.grid .offset12 {
+  @include offset(12);
+}
+.grid .offset11 {
+  @include offset(11);
+}
+.grid .offset10 {
+  @include offset(10);
+}
+.grid .offset-three-quarters,
+.grid .offset9 {
+  @include offset(9);
+}
+.grid .offset-two-thirds,
+.grid .offset8 {
+  @include offset(8);
+}
+.grid .offset7 {
+  @include offset(7);
+}
+.grid .offset-half,
+.grid .offset6 {
+  @include offset(6);
+}
+.grid .offset5 {
+  @include offset(5);
+}
+.grid .offset-third,
+.grid .offset4 {
+  @include offset(4);
+}
+.grid .offset-quarter,
+.grid .offset3 {
+  @include offset(3);
+}
+.grid .offset2 {
+  @include offset(2);
+}
+.grid .offset1 {
+  @include offset(1);
+}
 
 
 // Breaking the grid media queries
@@ -122,7 +125,7 @@
   .grid:not(.nobreak) .col:first-child:nth-last-child(6),
   .grid:not(.nobreak) .col:first-child:nth-last-child(6) ~ .col {
     float: left;
-    // #grid > .span(4);
+    @include span(4);
   }
 
   .grid:not(.nobreak) .col:first-child:nth-last-child(6) ~ .col:nth-child(3n) {
@@ -140,9 +143,9 @@
     clear: left;
   }
 
-  // .grid.break6 > .col {
-  //   .basicColumn;
-  // }
+  .grid.break6 > .col {
+    @include basicColumn;
+  }
 }
 
 @media only screen and (max-width: 1000px) and (min-width: 501px) {
@@ -150,7 +153,7 @@
   .grid:not(.nobreak) .col:first-child:nth-last-child(4),
   .grid:not(.nobreak) .col:first-child:nth-last-child(4) ~ .col {
     float: left;
-    // #grid > .span(6);
+    @include span(6);
   }
 
   .grid:not(.nobreak) .col:first-child:nth-last-child(4) ~ .col:nth-child(2) {
@@ -170,7 +173,7 @@
 
   .grid.break6 > .col,
   .grid.break4 > .col {
-    // .basicColumn;
+    @include basicColumn;
   }
 }
 
@@ -178,7 +181,7 @@
   // Collapse 3 columns
   .grid:not(.nobreak) .col:first-child:nth-last-child(3),
   .grid:not(.nobreak) .col:first-child:nth-last-child(3) ~ .col {
-    // .basicColumn;
+    @include basicColumn;
   }
 
   // Add bottom margin to the first 2 columns
@@ -197,7 +200,7 @@
   .grid:not(.nobreak) .col:first-child:nth-last-child(6),
   .grid:not(.nobreak) .col:first-child:nth-last-child(6) ~ .col {
     float: left;
-    // #grid > .span(6);
+    @include span(6);
   }
 
   .grid:not(.nobreak) .col:first-child:nth-last-child(6) ~ .col:nth-child(2n) {
@@ -219,12 +222,14 @@
   .grid.break6 > .col,
   .grid.break4 > .col,
   .grid.break3 > .col {
-    // .basicColumn;
+    @include basicColumn;
   }
 }
 
+
+
 @media only screen and (max-width: 500px) {
   .grid:not(.nobreak) .col {
-    // .basicColumn;
+    @include basicColumn;
   }
 }
