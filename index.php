@@ -84,7 +84,6 @@ $this->setTitle(Config::get('sitename') . ' - ' . $this->getTitle());
 
 							<nav id="account" class="account-navigation" role="navigation">
 								<ul>
-
 								<?php if (!User::isGuest()) {
 										$profile = \Hubzero\User\Profile::getInstance(User::get('id'));
 								?>
@@ -98,23 +97,23 @@ $this->setTitle(Config::get('sitename') . ' - ' . $this->getTitle());
 										</a>
 										<ul>
 											<li id="account-dashboard">
-												<a href="<?php echo Route::url($profile->getLink() . '&active=dashboard'); ?>"><span><?php echo Lang::txt('TPL_MATIN_ACCOUNT_DASHBOARD'); ?></span></a>
+												<a href="<?php echo Route::url($profile->getLink() . '&active=dashboard'); ?>"><span><?php echo Lang::txt('Dashboard'); ?></span></a>
 											</li>
 											<li id="account-profile">
-												<a href="<?php echo Route::url($profile->getLink() . '&active=profile'); ?>"><span><?php echo Lang::txt('TPL_MATIN_ACCOUNT_PROFILE'); ?></span></a>
+												<a href="<?php echo Route::url($profile->getLink() . '&active=profile'); ?>"><span><?php echo Lang::txt('Profile'); ?></span></a>
 											</li>
 											<li id="account-logout">
-												<a href="<?php echo Route::url('index.php?option=com_users&view=logout'); ?>"><span><?php echo Lang::txt('TPL_MATIN_LOGOUT'); ?></span></a>
+												<a href="<?php echo Route::url('index.php?option=com_users&view=logout'); ?>"><span><?php echo Lang::txt('Logout'); ?></span></a>
 											</li>
 										</ul>
 									</li>
 								<?php } else { ?>
 									<li>
-										<a class="icon-login" href="<?php echo Route::url('index.php?option=com_users&view=login'); ?>" title="<?php echo Lang::txt('TPL_MATIN_LOGIN'); ?>"><?php echo Lang::txt('Login'); ?></a>
+										<a class="icon-login" href="<?php echo Route::url('index.php?option=com_users&view=login'); ?>" title="<?php echo Lang::txt('Login'); ?>"><?php echo Lang::txt('Login'); ?></a>
 									</li>
 									<?php if ($this->params->get('registerLink') && Component::params('com_users')->get('allowUserRegistration')) : ?>
 										<li>
-											<a class="icon-register" href="<?php echo Route::url('index.php?option=com_register'); ?>" title="<?php echo Lang::txt('TPL_MATIN_SIGN_UP'); ?>"><?php echo Lang::txt('TPL_MATIN_REGISTER'); ?></a>
+											<a class="icon-register" href="<?php echo Route::url('index.php?option=com_register'); ?>" title="<?php echo Lang::txt('Sign up for a free account'); ?>"><?php echo Lang::txt('Register'); ?></a>
 										</li>
 									<?php endif; ?>
 								<?php } ?>
@@ -129,15 +128,15 @@ $this->setTitle(Config::get('sitename') . ' - ' . $this->getTitle());
 						<div id="sub-masthead">
 							<?php if ($this->countModules('helppane')) : ?>
 								<p id="tab">
-									<a href="<?php echo Route::url('index.php?option=com_support'); ?>" title="<?php echo Lang::txt('TPL_MATIN_NEED_HELP'); ?>">
-										<span><?php echo Lang::txt('TPL_MATIN_HELP'); ?></span>
+									<a href="<?php echo Route::url('index.php?option=com_support'); ?>" title="<?php echo Lang::txt('Need help? Send a trouble report to our support team.'); ?>">
+										<span><?php echo Lang::txt('Help!'); ?></span>
 									</a>
 								</p>
 							<?php endif; ?>
 
 							<div id="trail">
 								<?php if ($menu->getActive() == $menu->getDefault()) : ?>
-									<span class="pathway"><?php echo Lang::txt('TPL_MATIN_TAGLINE'); ?></span>
+									<span class="pathway"><?php echo Lang::txt('The open source <a href="_QQ_"matin1.me.gatech.edu"_QQ_">platform</a> for scientific and educational <a href="_QQ_"/community"_QQ_">collaboration</a>'); ?></span>
 								<?php else: ?>
 									<jdoc:include type="modules" name="breadcrumbs" />
 								<?php endif; ?>
