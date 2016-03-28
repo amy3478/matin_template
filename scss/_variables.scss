@@ -67,6 +67,62 @@ $breadcrumbs-font-family:        $font-family-sans-serif !default;
 $breadcrumb-font-size:           12px;
 
 $placeholderText:				 $gray-light;
+
+// Scaffolding
+// -------------------------
+$pathTemplate:          "/var/www/example/app/templates/matin201603";
+$bodyBackground:        #ececec;
+$contentBackground:     #f9f9f9;
+$contentPadding:        0;
+$contentMargin:         0 30px;
+$textColor:             $light-dark;
+
+// Z-index master list
+// -------------------------
+// Used for a bird's eye view of components dependent on the z-axis
+// Try to avoid customizing these :)
+$zindexDropdown:          1000;
+$zindexPopover:           1010;
+$zindexTooltip:           1030;
+$zindexFixedNavbar:       1030;
+$zindexModalBackdrop:     1040; //8020
+$zindexModal:             1050; //8030
+
+// Form states and alerts
+// -------------------------
+$warningText:             #fff;
+$warningBackground:       #fbaf41; //#f9b96f; //#f3c95d;
+$warningBorder:           #fbaf41; //#f9b96f; //#f3c95d;
+
+$errorText:               #fff;
+$errorBackground:         #dd5555;
+$errorBorder:             #e84c3d;
+
+$successText:             #fff;
+$successBackground:       #a3ca60;
+$successBorder:           #a3ca60;
+
+$helpText:                #fff;
+$helpBackground:          #c463d1;
+$helpBorder:              #bc60ca;
+
+$infoText:                #fff;
+$infoBackground:          #6fb6ff;
+$infoBorder:              #6fb6ff;
+
+
+// Tooltips and popovers
+// -------------------------
+$tooltipColor:            #eee;
+$tooltipBackgroundStart:  #333;
+$tooltipBackgroundEnd:    #111;
+$tooltipArrowWidth:       4px;
+$tooltipBorder:           none;
+
+$modalBackground:        #f9f9f9;
+$modalSkinBackground:    white;
+$modalSkinShadow:        0 10px 25px rgba(0, 0, 0, 0.5), inset 0 0px 1px rgba(255, 255, 255, 0.6);
+
 // Default 940px grid
 // -------------------------
 $gridColumns:             12;
@@ -80,3 +136,51 @@ $fluidGridColumnWidth:    percentage($gridColumnWidth/$gridRowWidth);
 $fluidGridGutterWidth:    percentage($gridGutterWidth/$gridRowWidth);
 
 $gridColCollapseMargin: 2em;
+
+// Pagination
+// -------------------------
+$paginationBackground:           transparent;
+$paginationBorder:               #ddd;
+$paginationColor:                $gray-dark;
+$paginationActiveBackground:     #f5f5f5;
+
+// Component sizing
+// -------------------------
+// Based on 14px font-size and 20px line-height
+
+$paddingLarge:          11px 19px; // 44px
+$paddingSmall:          2px 10px;  // 26px
+$paddingMini:           0 6px;   // 22px
+
+$baseBorderRadius:      0.25em;
+$borderRadiusLarge:     0.5em;
+$borderRadiusSmall:     0.125em;
+
+// Sub menu
+// -------------------------
+$tabColor:                  white;
+$tabColorActive:            $gray-darker;
+$tabContainerBackground:    #e1e1e1;
+$tabContainerPadding:       1em 30px 0 30px;
+$tabBorder:                 #949494;
+$tabBorderHover:            darken($tabBorder, 15%);
+$tabBackground:             #b5b5b5;
+$tabBackgroundHover:        darken($tabBackground, 15%);
+$tabActiveBorder:           #BABABA;
+$tabActiveBackground:       $contentBackground;
+
+// Tags
+// -------------------------
+$tagBorderRadius:           0 3px 3px 0 !important;
+$tagBackground:             #fadea3;
+$tagBackgroundHover:        #f3ae22;
+$tagColor:                  #5a2d00;
+$tagColorHover:             #5a2d00;
+$tagCountBackground:        lighten($tagBackground, 10%);
+$tagCountBackgroundHover:   lighten($tagBackgroundHover, 10%);
+$tagAdminBackground:        #fee4de;
+$tagAdminBackgroundHover:   #fdd9d0;
+$tagAdminColor:             #888;
+$tagAdminColorHover:        #333;
+
+

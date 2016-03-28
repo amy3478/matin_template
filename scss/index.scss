@@ -179,6 +179,9 @@ table {
 // Main Navigation
 @import "_menu";
 
+// Section
+@import "_section";
+
 // Search box
 @import "_search";
 
@@ -199,6 +202,21 @@ table {
 
 // Forms
 @import "_forms";
+
+// Modal
+@import "_modal";
+
+// Notifications
+@import "_notification";
+
+// Pagination
+@import "_pagination";
+
+// Tags
+@import "_tags";
+
+// Tooltips
+@import "_tooltip";
 
 // Footer
 @import "_footer";
