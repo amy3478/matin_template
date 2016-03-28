@@ -124,8 +124,8 @@ $this->setTitle(Config::get('sitename') . ' - ' . $this->getTitle());
 									<jdoc:include type="modules" name="user3" />
 							</nav>
 
-					      <a class="icon-search" href="<?php echo Route::url('index.php?option=com_search'); ?>" title="<?php echo Lang::txt('TPL_MATIN_SEARCH'); ?>"><?php echo Lang::txt('Search'); ?> <jdoc:include type="modules" name="search" /></a>
-
+					      <a class="icon-search" href="<?php echo Route::url('index.php?option=com_search'); ?>" title="<?php echo Lang::txt('TPL_MATIN_SEARCH'); ?>"><?php echo Lang::txt('Search'); ?></a>
+					      <jdoc:include type="modules" name="search" />
 
 						</div>
 
