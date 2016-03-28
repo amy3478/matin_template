@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="template" version="2.5">
-	<name>matin 2016</name>
+	<name>matin 201603</name>
 	<creationDate>03/26/16</creationDate>
-	<author>MATIN team</author>
+	<author>MATIN Team</author>
 	<copyright>GNU/GPL</copyright>
 	<authorEmail>support@hubzero.org</authorEmail>
 	<authorUrl>http:///matin1.me.gatech.edu/</authorUrl>
