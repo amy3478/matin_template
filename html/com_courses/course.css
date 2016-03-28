@@ -77,4 +77,7 @@ ul.sub-menu li.active a {
 }
 .com_courses #content-header {
 	margin: 0;
+	padding-top: 20px;
+    padding-bottom: 4px;
+    background-color: rgba($matin-blue, 0.12);
 }
