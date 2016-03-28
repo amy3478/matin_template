@@ -1213,8 +1213,33 @@ section.section {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000355}}
   .btn.disabled, .btn[disabled] {
     cursor: default; }
-
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000360}}
+  .btn[class^="icon-"], .btn[class*=" icon-"] {
+    padding: 0.7em 0.91em 0.7em 1.91em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000364}}
+  .btn[class^="icon-"]:before, .btn[class*=" icon-"]:before {
+    margin-right: 0.2em;
+    font-family: "Fontcons";
+    line-height: 2.4;
+    padding: 0 0.3em 0 0.7em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 1em;
+    text-align: center;
+    font-weight: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000379}}
+  .btn.opposite[class^="icon-"], .btn.opposite[class*=" icon-"] {
+    padding: 0.7em 1.91em 0.7em 0.91em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000383}}
+  .btn.opposite[class^="icon-"]:before, .btn.opposite[class*=" icon-"]:before {
+    left: auto;
+    right: 0;
+    margin: 0 0 0 0.2em;
+    padding: 0 0.7em 0 0.3em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000391}}
 .btn-basic {
   display: block;
   height: 36px;
@@ -1228,20 +1253,20 @@ section.section {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003106}}
   .btn-basic:hover, .btn-basic:focus, .btn-basic:visited:hover {
     border: 1px solid #d8dde6; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003112}}
   .btn-basic.disabled, .btn-basic[disabled] {
     background-color: #c1c1c1;
     color: #919191; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003118}}
 .btn-brand {
   background-color: #eeb211;
   border-color: transparent;
   color: #FFF; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003123}}
   .btn-brand:hover, .btn-brand:focus, .btn-brand:visited:hover {
     background-color: #b5870d;
     color: #FFF; }
