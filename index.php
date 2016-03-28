@@ -136,7 +136,8 @@ $this->setTitle(Config::get('sitename') . ' - ' . $this->getTitle());
 
 							<div id="trail">
 								<?php if ($menu->getActive() == $menu->getDefault()) : ?>
-									<span class="pathway"><?php echo Lang::txt('The open source <a href="_QQ_"matin1.me.gatech.edu"_QQ_">platform</a> for scientific and educational <a href="_QQ_"/community"_QQ_">collaboration</a>'); ?></span>
+									<span class="pathway"><?php echo Lang::txt('A Collaborative Platform
+for Material Science'); ?></span>
 								<?php else: ?>
 									<jdoc:include type="modules" name="breadcrumbs" />
 								<?php endif; ?>
