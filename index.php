@@ -84,10 +84,7 @@ $this->setTitle(Config::get('sitename') . ' - ' . $this->getTitle());
 
 							<nav id="account" class="account-navigation" role="navigation">
 								<ul>
-									<li>
-										<a class="icon-search" href="<?php echo Route::url('index.php?option=com_search'); ?>" title="<?php echo Lang::txt('TPL_MATIN_SEARCH'); ?>"><?php echo Lang::txt('Search'); ?></a>
-										<jdoc:include type="modules" name="search" />
-									</li>
+
 								<?php if (!User::isGuest()) {
 										$profile = \Hubzero\User\Profile::getInstance(User::get('id'));
 								?>
