@@ -91,7 +91,7 @@
                 &:hover>a,
                 &:focus>a {
                     color: $matin-blue;
-                    background-color: $light-blue;
+                    background-color: rgba($matin-blue, 0.2);
                 }
             }
 
