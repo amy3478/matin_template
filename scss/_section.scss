@@ -165,6 +165,7 @@
 section.section {
 	background: #f9f9f9;
 	padding: $spacing;
+	@include box-sizing(border-box);
 }
 .subject .contentpaneopen {
 	padding: 0;
