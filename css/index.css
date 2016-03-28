@@ -8,7 +8,7 @@
 * Bases
 *********************************************/
 /**
- * @package     hubzero-cms
+ * @package     MATIN
  * @file        media/hubzero/css/reset.css
  * @copyright   Copyright 2005-2015 HUBzero Foundation, LLC.
  * @license     http://opensource.org/licenses/MIT MIT
@@ -91,7 +91,7 @@ b, strong {
   font-weight: 300;
   src: url("../fonts/roboto/Roboto-Light.ttf") format("truetype"); }
 /*
-* $package     hubzero-cms
+* $package     MATIN
 * $file        media/system/css/fontcons.css
 * $copyright   Copyright 2005-2015 HUBzero Foundation, LLC.
 * $license     http://opensource.org/licenses/MIT MIT
@@ -108,7 +108,7 @@ b, strong {
   font-weight: normal;
   font-style: normal; }
 /*
-* @package     hubzero-cms
+* @package     MATIN
 * @file        media/system/css/icons.css
 * @copyright   Copyright 2005-2015 HUBzero Foundation, LLC.
 * @license     http://opensource.org/licenses/MIT MIT
@@ -446,7 +446,7 @@ table {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\0000312}}
 #masthead {
-  backgrond: white;
+  background-color: white;
   color: #606060;
   margin: 0;
   padding: 0;
@@ -475,7 +475,7 @@ table {
       font-weight: normal;
       font-style: normal;
       padding: 0.5em 0;
-      color: #52a1de; }
+      color: #eeb211; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\0000344}}
       #masthead h1 a:hover {
         text-decoration: none;
