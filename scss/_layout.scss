@@ -29,13 +29,14 @@
 			display: none;
 		}
 	}
-	input,
-	input[type="text"],
 	input[type="submit"] {
+		@extend .btn-basic;
+	}
+	input,
+	input[type="text"] {
 		width: 100%;
-		border: 1px solid #ddd;
-		border: 1px solid rgba(0, 0, 0, 0.175);
-		background: #f1f1f1;
+		border: 1px solid $light-blue;
+		background: #FFF;
 		padding: 0.618em 1em;
 		margin: 0;
 		@include box-sizing(border-box);
@@ -46,13 +47,13 @@
 		display: inline-block;
 		//.ie7-inline-block();
 		padding: 7px 5px 8px 5px\9;
-		@include border-radius(0);
+		@include border-radius(4px);
 		@include transition(all 0.1s ease-out);
 
 		&:hover,
 		&:focus {
 			background: #fff;
-			border-color: #333;
+			border-color: $matin-blue;
 		}
 	}
 	//}
