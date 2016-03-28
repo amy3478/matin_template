@@ -1,5 +1,5 @@
 /**
- * @package     hubzero-cms
+ * @package     MATIN
  * @file        templates/MATIN/js/hub.js
  * @copyright   Copyright 2016 MATIN
  * @license     http://opensource.org/licenses/MIT MIT
