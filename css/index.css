@@ -500,11 +500,11 @@ table {
 @media (min-width: 70em) {
   #account {
     margin: 20px 60px 0 0; } }
-.content-header {
+#content-header, .content-header {
   padding-top: 20px;
   padding-bottom: 4px;
   background-color: rgba(82, 161, 222, 0.12); }
-  .content-header .content-title {
+  #content-header .content-title, .content-header .content-title {
     color: #343A42;
     font-size: 24px;
     font-weight: 400;
