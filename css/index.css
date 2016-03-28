@@ -1690,6 +1690,243 @@ table.entries {
   th.priority-6,
   td.priority-6 {
     display: table-cell; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000312}}
+input[type=text],
+input[type=password],
+input[type=email],
+textarea {
+  font-family: "Roboto", "Segoe UI", sans-serif;
+  font-size: 1em;
+  line-height: 1.61803399em;
+  max-width: 100%;
+  padding: 0.6045084975em;
+  outline: none;
+  border: 1px solid #D9D9D9;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background-color: #f1f1f1;
+  background-color: rgba(200, 200, 200, 0.15);
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transition: all 0.1s ease-out;
+  -moz-transition: all 0.1s ease-out;
+  -o-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000329}}
+  input[type=text]:hover, input[type=text]:focus,
+  input[type=password]:hover,
+  input[type=password]:focus,
+  input[type=email]:hover,
+  input[type=email]:focus,
+  textarea:hover,
+  textarea:focus {
+    background-color: #fff;
+    border-color: #222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000335}}
+  input[type=text].disabled,
+  input[type=password].disabled,
+  input[type=email].disabled,
+  textarea.disabled {
+    color: #888;
+    color: rgba(0, 0, 0, 0.5); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000339}}
+    input[type=text].disabled:hover, input[type=text].disabled:focus,
+    input[type=password].disabled:hover,
+    input[type=password].disabled:focus,
+    input[type=email].disabled:hover,
+    input[type=email].disabled:focus,
+    textarea.disabled:hover,
+    textarea.disabled:focus {
+      background-color: #f1f1f1;
+      background-color: rgba(200, 200, 200, 0.15);
+      border-color: #D9D9D9;
+      border-color: rgba(0, 0, 0, 0.15); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000348}}
+.placeholder-support {
+  color: #aaa; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000353}}
+#hubForm {
+  position: relative;
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000357}}
+  #hubForm label {
+    display: block;
+    color: #777;
+    padding: 1.5em 0 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000362}}
+  #hubForm input,
+  #hubForm select,
+  #hubForm textarea {
+    margin-top: 0.25em;
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000369}}
+  #hubForm input.option,
+  #hubForm input[type="checkbox"],
+  #hubForm input[type="radio"] {
+    width: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000375}}
+  #hubForm legend {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid #e5e5e5;
+    margin: 0 0 1em 0;
+    padding: 1em 2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    line-height: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000389}}
+    #hubForm legend:before, #hubForm legend:after {
+      content: "";
+      display: table;
+      line-height: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000395}}
+    #hubForm legend:after {
+      clear: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003100}}
+  #hubForm fieldset {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    margin: 0 0 2em 0;
+    position: relative;
+    padding: 3em 2em 2em 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003107}}
+    #hubForm fieldset fieldset {
+      margin: 1.5em 0;
+      padding: 0 1em 1.5em 1em;
+      float: none;
+      width: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003113}}
+      #hubForm fieldset fieldset label {
+        padding-top: 0.7em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003116}}
+      #hubForm fieldset fieldset legend {
+        float: none;
+        position: static;
+        left: auto;
+        right: auto;
+        background: #fff;
+        color: #747474;
+        border: none;
+        width: auto;
+        padding: 0 1em;
+        margin: 0;
+        text-indent: 0;
+        text-shadow: none;
+        text-transform: none;
+        font-size: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003135}}
+  #hubForm .optional,
+  #hubForm .required {
+    text-transform: uppercase;
+    font-size: xx-small; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003140}}
+  #hubForm .required {
+    color: red; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003143}}
+  #hubForm .optional {
+    color: #999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003146}}
+  #hubForm .hint {
+    color: #999;
+    font-size: 90%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003150}}
+  #hubForm .inactive {
+    color: #aa9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003154}}
+  #hubForm .submit {
+    padding: 1em 0 0 0;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003158}}
+    #hubForm .submit input {
+      display: inline;
+      width: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003164}}
+  #hubForm span.warning,
+  #hubForm span.information,
+  #hubForm span.help,
+  #hubForm span.error {
+    margin: 0.5em 0 0 0;
+    display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003171}}
+  #hubForm .error p,
+  #hubForm .warning p,
+  #hubForm .information p,
+  #hubForm .help p {
+    margin: 1em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003178}}
+  #hubForm ul {
+    margin: 1em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003181}}
+    #hubForm ul li {
+      margin-left: 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003186}}
+  #hubForm .explaination {
+    background: #ccc;
+    background: rgba(0, 0, 0, 0.05);
+    position: relative;
+    padding: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003192}}
+    #hubForm .explaination > *:first-child {
+      margin-top: 0;
+      padding-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003196}}
+    #hubForm .explaination > *:last-child {
+      margin-bottom: 0;
+      padding-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003203}}
+  #hubForm.full fieldset {
+    margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003207}}
+  #hubForm.full .submit {
+    margin-right: 0; }
+
+@media (min-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003215}}
+  #hubForm fieldset {
+    margin-right: 270px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003218}}
+    #hubForm fieldset fieldset {
+      margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003222}}
+  #hubForm .explaination {
+    float: right;
+    min-height: 1em;
+    width: 240px;
+    margin: 0 0 0 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003228}}
+    #hubForm .explaination:after {
+      content: "";
+      width: 0;
+      height: 0;
+      border: 8px solid #ccc;
+      border-color: transparent #ccc transparent transparent;
+      border-color: transparent rgba(0, 0, 0, 0.05) transparent transparent;
+      position: absolute;
+      right: 100%;
+      top: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003240}}
+  #hubForm .explaination + fieldset {
+    margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003243}}
+  #hubForm .submit {
+    margin-right: 270px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003250}}
+form.search fieldset {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003256}}
+  form.search fieldset input {
+    width: auto;
+    display: inline-block; }
+
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_footer\.scss}line{font-family:\0000323}}
 #footer {
   padding: 0;
