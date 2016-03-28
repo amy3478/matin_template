@@ -173,6 +173,65 @@ table {
     position: relative;
 }
 
+// Content
+#content-header-extra ul {
+    margin: 0;
+}
+
+#page_options,
+header.content-header ul,
+#content-header-extra {
+    margin: 1em 0 0 0;
+    padding: 0;
+
+    li,
+    p {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+        margin-right: 1em;
+        list-style: none;
+    }
+}
+#page_options {
+    margin: 0 0 1em 0;
+}
+
+@media (min-width: 50em) {
+    #page_options,
+    header.content-header ul,
+    #content-header-extra {
+        margin: 0;
+        position: absolute;
+        right: $spacing;
+        top: $spacing;
+        text-align: right;
+
+        li {
+            display: inline-block;
+            margin-right: 0;
+            margin-left: 1em;
+            list-style: none;
+        }
+    }
+}
+
+@media (min-width: 70em) {
+    header.content-header,
+    .com_content .content-header,
+    #content-header {
+        padding: $spacing $gutter;
+    }
+    #page_options,
+    header.content-header ul,
+    #content-header-extra {
+        right: $gutter;
+    }
+}
+
 // Masthead
 @import "_masthead";
 
