@@ -63,18 +63,22 @@
 
 		background-color: #FFF;
 		border: 1px solid $light-blue;
+		color: $matin-blue;
 
 		@include border-radius(4px);
+		@include transition(all 0.2s linear);
 
 		&:hover,
 		&:focus,
 		&:visited:hover {
 			border: 1px solid $light-blue;
+			color: rgba($matin-blue, 0.56);
 		}
 
 		width: auto;
 		float: right;
-		padding: 0.618em 1em;
+		
+		padding: 0 16px;
 		margin: 0 0 0 0.2em;
 		display: inline-block;
 		@include ie7-inline-block();
