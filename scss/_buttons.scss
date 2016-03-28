@@ -319,27 +319,7 @@
 // Header buttons
 	header .btn,
 	#content-header-extra .btn {
-		background: transparent;
-		border-color: rgba(255, 255, 255, 0.5);
-		//text-shadow: none;
-		color: #fff;
-
-		&:hover,
-		&:focus {
-			border-color: #fff;
-			background: #fff;
-			color: #222;
-		}
-
-		/*&:before {
-			background: transparent;
-			border-right: 1px solid rgba(255, 255, 255, 0.2);
-		}
-		&.opposite:before {
-			background: transparent;
-			border-right: none;
-			border-left: 1px solid rgba(255, 255, 255, 0.2);
-		}*/
+		@extend .btn-basic;
 	}
 	#content-header-extra a.all {
 		padding: 0.4em 0.91em 0.4em 0.91em;

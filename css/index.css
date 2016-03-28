@@ -1240,7 +1240,8 @@ section.section {
     padding: 0 0.7em 0 0.3em; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000391}}
-.btn-basic {
+.btn-basic, header .btn,
+#content-header-extra .btn {
   display: block;
   height: 36px;
   min-width: 64px;
@@ -1254,10 +1255,15 @@ section.section {
   -moz-border-radius: 4px;
   border-radius: 4px; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003106}}
-  .btn-basic:hover, .btn-basic:focus, .btn-basic:visited:hover {
+  .btn-basic:hover, header .btn:hover,
+  #content-header-extra .btn:hover, .btn-basic:focus, header .btn:focus,
+  #content-header-extra .btn:focus, .btn-basic:visited:hover, header .btn:visited:hover,
+  #content-header-extra .btn:visited:hover {
     border: 1px solid #d8dde6; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003112}}
-  .btn-basic.disabled, .btn-basic[disabled] {
+  .btn-basic.disabled, header .disabled.btn,
+  #content-header-extra .disabled.btn, .btn-basic[disabled], header [disabled].btn,
+  #content-header-extra [disabled].btn {
     background-color: #c1c1c1;
     color: #919191; }
 
@@ -1462,34 +1468,11 @@ input[type="submit"].btn::-moz-focus-inner {
   line-height: 1.5em;
   border: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003320}}
-header .btn,
-#content-header-extra .btn {
-  background: transparent;
-  border-color: rgba(255, 255, 255, 0.5);
-  color: #fff;
-  /*&:before {
-  	background: transparent;
-  	border-right: 1px solid rgba(255, 255, 255, 0.2);
-  }
-  &.opposite:before {
-  	background: transparent;
-  	border-right: none;
-  	border-left: 1px solid rgba(255, 255, 255, 0.2);
-  }*/ }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003327}}
-  header .btn:hover, header .btn:focus,
-  #content-header-extra .btn:hover,
-  #content-header-extra .btn:focus {
-    border-color: #fff;
-    background: #fff;
-    color: #222; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003344}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003324}}
 #content-header-extra a.all {
   padding: 0.4em 0.91em 0.4em 0.91em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003329}}
 #content-header-extra .dropdown-menu {
   left: auto;
   right: 0;
@@ -1503,18 +1486,18 @@ header .btn,
   -moz-box-shadow: none;
   box-shadow: none;
   min-width: 3em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003339}}
   #content-header-extra .dropdown-menu li {
     margin: 0;
     display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003343}}
   #content-header-extra .dropdown-menu a {
     color: rgba(255, 255, 255, 0.8); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003346}}
     #content-header-extra .dropdown-menu a:hover {
       color: #fff;
       background: rgba(0, 0, 0, 0.4); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003352}}
 #content-header-extra .btn-group > .btn:first-child,
 #content-header-extra .btn-group > .btn:last-child,
 #content-header-extra .btn-group > .dropdown-toggle {
@@ -1524,22 +1507,22 @@ header .btn,
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003358}}
 #content-header-extra .btn-group > .btn:first-child {
   border-right: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003361}}
 #content-header-extra .btn-group > .btn:last-child,
 #content-header-extra .btn-group > .dropdown-toggle {
   border-left: 1px solid rgba(255, 255, 255, 0.2);
   height: 2.7em;
   height: 2.75em\9; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003367}}
 #content-header-extra .btn-group span.dropdown-toggle:before,
 #content-header-extra .btn .caret {
   border-top: 4px solid  #fff;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003393}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003373}}
 #content-header-extra .btn-group.dropup span.dropdown-toggle:before {
   border-bottom: 4px solid  #fff;
   border-right: 4px solid transparent;
@@ -1547,12 +1530,12 @@ header .btn,
   border-top: none; }
 
 @media (min-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003402}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003382}}
   #page_options .btn {
     background: transparent;
     border-color: rgba(255, 255, 255, 0.5);
     color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003408}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003388}}
     #page_options .btn:hover, #page_options .btn:focus {
       border-color: #fff;
       background: #fff;
