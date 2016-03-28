@@ -120,12 +120,17 @@ $this->setTitle(Config::get('sitename') . ' - ' . $this->getTitle());
 						</header>
 						<div class="navi-session">
 
+						<div>
 							<nav id="nav" class="main-navigation" role="main">
 									<jdoc:include type="modules" name="user3" />
 							</nav>
 
 					      <a class="icon-search" href="<?php echo Route::url('index.php?option=com_search'); ?>" title="<?php echo Lang::txt('TPL_MATIN_SEARCH'); ?>"><?php echo Lang::txt('Search'); ?></a>
 					      <jdoc:include type="modules" name="search" />
+							<li>
+					      <a class="icon-search" href="<?php echo Route::url('index.php?option=com_search'); ?>" title="<?php echo Lang::txt('TPL_MATIN_SEARCH'); ?>"><?php echo Lang::txt('Search'); ?></a>
+					      <jdoc:include type="modules" name="search" />
+							</li>
 
 						</div>
 
