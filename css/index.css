@@ -686,16 +686,19 @@ table {
       width: 16em;
       padding: 0;
       background: #FFF;
-      border-top: 2px solid #ccc;
       margin-left: 0;
       -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 0px 4px rgba(0, 0, 0, 0.04);
       -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 0px 4px rgba(0, 0, 0, 0.04);
       box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 0px 4px rgba(0, 0, 0, 0.04); }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000388}}
       #nav ul.menu ul li {
         float: none;
         font-weight: normal; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000391}}
+        #nav ul.menu ul li:hover > a, #nav ul.menu ul li:focus > a {
+          color: #52a1de;
+          background-color: #d8dde6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000398}}
       #nav ul.menu ul a {
         padding: 16px 24px;
         text-transform: none;
@@ -709,7 +712,7 @@ table {
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003110}}
       #nav ul.menu ul.parents > a:after {
         font-family: 'Fontcons';
         content: "\203A";
@@ -720,10 +723,6 @@ table {
         width: 1em;
         height: 1em;
         text-align: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003118}}
-      #nav ul.menu ul:hover > a, #nav ul.menu ul:focus > a {
-        color: #52a1de;
-        background-color: #d8dde6; }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003127}}
     #nav ul.menu > li:hover > a, #nav ul.menu > li:focus > a {
       color: #343a42; }

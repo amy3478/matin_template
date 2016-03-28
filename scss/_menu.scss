@@ -82,13 +82,17 @@
             width: 16em;
             padding: 0;
             background: #FFF;
-            border-top: 2px solid #ccc;
             margin-left: 0;
             @include box-shadow((0 2px 2px rgba(0,0,0,0.12), 0 0px 4px rgba(0,0,0,0.04)));
 
             li {
                 float: none;
                 font-weight: normal;
+                &:hover>a,
+                &:focus>a {
+                    color: $matin-blue;
+                    background-color: $light-blue;
+                }
             }
 
             a {
@@ -115,11 +119,7 @@
                 text-align: right;
             }
 
-            &:hover>a,
-            &:focus>a {
-                color: $matin-blue;
-                background-color: $light-blue;
-            }
+            
         } // second level ul
 
         &>li:hover,
