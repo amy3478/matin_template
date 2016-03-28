@@ -31,7 +31,7 @@
 	}
 	input,
 	input[type="text"],
-	input[type="submit"]  {
+	input[type="submit"] {
 		width: 100%;
 		border: 1px solid $light-blue;
 		background: #FFF;
@@ -58,6 +58,13 @@
 
 	input.entry-search-submit {
 		@extend .btn-basic;
+		width: auto;
+		float: right;
+		padding: 0.618em 1em;
+		margin: 0 0 0 0.2em;
+		display: inline-block;
+		@include ie7-inline-block();
+		cursor: pointer;
 	}
 	.applied-tags {
 		margin-top: 0px;
