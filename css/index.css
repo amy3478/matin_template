@@ -445,66 +445,11 @@ table {
   position: relative; }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003177}}
-#content-header-extra ul {
-  margin: 0; }
+#content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003181}}
-#page_options,
-header.content-header ul,
-#content-header-extra {
-  margin: 1em 0 0 0;
-  padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003187}}
-  #page_options li,
-  #page_options p,
-  header.content-header ul li,
-  header.content-header ul p,
-  #content-header-extra li,
-  #content-header-extra p {
-    margin: 0;
-    padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003193}}
-  #page_options li,
-  header.content-header ul li,
-  #content-header-extra li {
-    display: inline-block;
-    margin-right: 1em;
-    list-style: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003199}}
-#page_options {
-  margin: 0 0 1em 0; }
-
-@media (min-width: 50em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003204}}
-  #page_options,
-  header.content-header ul,
-  #content-header-extra {
-    margin: 0;
-    position: absolute;
-    right: 30px;
-    top: 30px;
-    text-align: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003213}}
-    #page_options li,
-    header.content-header ul li,
-    #content-header-extra li {
-      display: inline-block;
-      margin-right: 0;
-      margin-left: 1em;
-      list-style: none; } }
-@media (min-width: 70em) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003223}}
-  header.content-header,
-  .com_content .content-header,
-  #content-header {
-    padding: 30px 60px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003228}}
-  #page_options,
-  header.content-header ul,
-  #content-header-extra {
-    right: 60px; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\0000312}}
 #masthead {
   background-color: white;
