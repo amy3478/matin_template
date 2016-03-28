@@ -85,7 +85,7 @@ $this->setTitle(Config::get('sitename') . ' - ' . $this->getTitle());
 							<nav id="account" class="account-navigation" role="navigation">
 								<ul>
 									<li>
-										<a class="icon-search" href="<?php echo Route::url('index.php?option=com_search'); ?>" title="<?php echo Lang::txt('TPL_KIMERA_SEARCH'); ?>"><?php echo Lang::txt('Search'); ?></a>
+										<a class="icon-search" href="<?php echo Route::url('index.php?option=com_search'); ?>" title="<?php echo Lang::txt('TPL_MATIN_SEARCH'); ?>"><?php echo Lang::txt('Search'); ?></a>
 										<jdoc:include type="modules" name="search" />
 									</li>
 								<?php if (!User::isGuest()) {
@@ -101,23 +101,23 @@ $this->setTitle(Config::get('sitename') . ' - ' . $this->getTitle());
 										</a>
 										<ul>
 											<li id="account-dashboard">
-												<a href="<?php echo Route::url($profile->getLink() . '&active=dashboard'); ?>"><span><?php echo Lang::txt('TPL_KIMERA_ACCOUNT_DASHBOARD'); ?></span></a>
+												<a href="<?php echo Route::url($profile->getLink() . '&active=dashboard'); ?>"><span><?php echo Lang::txt('TPL_MATIN_ACCOUNT_DASHBOARD'); ?></span></a>
 											</li>
 											<li id="account-profile">
-												<a href="<?php echo Route::url($profile->getLink() . '&active=profile'); ?>"><span><?php echo Lang::txt('TPL_KIMERA_ACCOUNT_PROFILE'); ?></span></a>
+												<a href="<?php echo Route::url($profile->getLink() . '&active=profile'); ?>"><span><?php echo Lang::txt('TPL_MATIN_ACCOUNT_PROFILE'); ?></span></a>
 											</li>
 											<li id="account-logout">
-												<a href="<?php echo Route::url('index.php?option=com_users&view=logout'); ?>"><span><?php echo Lang::txt('TPL_KIMERA_LOGOUT'); ?></span></a>
+												<a href="<?php echo Route::url('index.php?option=com_users&view=logout'); ?>"><span><?php echo Lang::txt('TPL_MATIN_LOGOUT'); ?></span></a>
 											</li>
 										</ul>
 									</li>
 								<?php } else { ?>
 									<li>
-										<a class="icon-login" href="<?php echo Route::url('index.php?option=com_users&view=login'); ?>" title="<?php echo Lang::txt('TPL_KIMERA_LOGIN'); ?>"><?php echo Lang::txt('TPL_KIMERA_LOGIN'); ?></a>
+										<a class="icon-login" href="<?php echo Route::url('index.php?option=com_users&view=login'); ?>" title="<?php echo Lang::txt('TPL_MATIN_LOGIN'); ?>"><?php echo Lang::txt('TPL_MATIN_LOGIN'); ?></a>
 									</li>
 									<?php if ($this->params->get('registerLink') && Component::params('com_users')->get('allowUserRegistration')) : ?>
 										<li>
-											<a class="icon-register" href="<?php echo Route::url('index.php?option=com_register'); ?>" title="<?php echo Lang::txt('TPL_KIMERA_SIGN_UP'); ?>"><?php echo Lang::txt('TPL_KIMERA_REGISTER'); ?></a>
+											<a class="icon-register" href="<?php echo Route::url('index.php?option=com_register'); ?>" title="<?php echo Lang::txt('TPL_MATIN_SIGN_UP'); ?>"><?php echo Lang::txt('TPL_MATIN_REGISTER'); ?></a>
 										</li>
 									<?php endif; ?>
 								<?php } ?>
@@ -132,15 +132,15 @@ $this->setTitle(Config::get('sitename') . ' - ' . $this->getTitle());
 						<div id="sub-masthead">
 							<?php if ($this->countModules('helppane')) : ?>
 								<p id="tab">
-									<a href="<?php echo Route::url('index.php?option=com_support'); ?>" title="<?php echo Lang::txt('TPL_KIMERA_NEED_HELP'); ?>">
-										<span><?php echo Lang::txt('TPL_KIMERA_HELP'); ?></span>
+									<a href="<?php echo Route::url('index.php?option=com_support'); ?>" title="<?php echo Lang::txt('TPL_MATIN_NEED_HELP'); ?>">
+										<span><?php echo Lang::txt('TPL_MATIN_HELP'); ?></span>
 									</a>
 								</p>
 							<?php endif; ?>
 
 							<div id="trail">
 								<?php if ($menu->getActive() == $menu->getDefault()) : ?>
-									<span class="pathway"><?php echo Lang::txt('TPL_KIMERA_TAGLINE'); ?></span>
+									<span class="pathway"><?php echo Lang::txt('TPL_MATIN_TAGLINE'); ?></span>
 								<?php else: ?>
 									<jdoc:include type="modules" name="breadcrumbs" />
 								<?php endif; ?>
