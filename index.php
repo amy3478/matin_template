@@ -95,7 +95,7 @@ $this->setTitle(Config::get('sitename') . ' - ' . $this->getTitle());
 										<a href="<?php echo Route::url($profile->getLink()); ?>">
 											<img src="<?php echo $profile->getPicture(); ?>" alt="<?php echo $profile->get('name'); ?>" width="30" height="30" />
 											<span class="account-details">
-												<?php echo stripslashes($profile->get('name')); ?> 
+												<?php echo stripslashes($profile->get('name')); ?>
 												<span class="account-email"><?php echo $profile->get('email'); ?></span>
 											</span>
 										</a>

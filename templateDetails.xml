@@ -27,7 +27,7 @@
 		<filename>js/html5.js</filename>
 	</files>
 	<languages>
-		<language tag="en-GB">en-GB.tpl_neutral.ini</language>
+		<language tag="en-GB">en-GB.tpl_matin.ini</language>
 	</languages>
 	<positions>
 		<position>footer</position>
