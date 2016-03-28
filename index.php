@@ -111,11 +111,9 @@ $this->setTitle(Config::get('sitename') . ' - ' . $this->getTitle());
 									<li>
 										<a class="icon-login" href="<?php echo Route::url('index.php?option=com_users&view=login'); ?>" title="<?php echo Lang::txt('Login'); ?>"><?php echo Lang::txt('Login'); ?></a>
 									</li>
-									<?php if ($this->params->get('registerLink') && Component::params('com_users')->get('allowUserRegistration')) : ?>
-										<li>
-											<a class="icon-register" href="<?php echo Route::url('index.php?option=com_register'); ?>" title="<?php echo Lang::txt('Sign up for a free account'); ?>"><?php echo Lang::txt('Register'); ?></a>
-										</li>
-									<?php endif; ?>
+									<li>
+										<a class="icon-register" href="<?php echo Route::url('index.php?option=com_register'); ?>" title="<?php echo Lang::txt('Sign up for a free account'); ?>"><?php echo Lang::txt('Register'); ?></a>
+									</li>
 								<?php } ?>
 								</ul>
 							</nav>
