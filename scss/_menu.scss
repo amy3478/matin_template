@@ -81,8 +81,10 @@
             z-index: 798;
             width: 16em;
             padding: 0;
-            background: #222;
+            background: #FFF;
             border-top: 2px solid #ccc;
+            margin-left: 0;
+            @include box-shadow((0 2px 2px rgba(0,0,0,0.12), 0 0px 4px rgba(0,0,0,0.04)));
 
             li {
                 float: none;
@@ -90,15 +92,15 @@
             }
 
             a {
-                padding: 0.8em 1em;
+                padding: 16px 24px;
                 text-transform: none;
                 line-height: 1;
-                color: #bbb;
-                color: rgba(255, 255, 255, 0.6);
+                color: $light-dark;
                 border: none;
                 font-size: 1em;
                 font-weight: 400;
                 letter-spacing: 0;
+                @include transition(all 0.2s ease-in-out);
             }
 
             &.parents >a:after {
@@ -115,7 +117,8 @@
 
             &:hover>a,
             &:focus>a {
-                color: $light-dark;
+                color: $matin-blue;
+                background-color: $light-blue;
             }
         } // second level ul
 
