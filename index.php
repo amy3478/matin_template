@@ -124,7 +124,7 @@ $this->setTitle(Config::get('sitename') . ' - ' . $this->getTitle());
 							<nav id="nav" class="main-navigation" role="main">
 									<jdoc:include type="modules" name="user3" />
 									<!-- search box-->
-									<form action="<?php echo Route::url('index.php?option=com_search'); ?>" title="<?php echo Lang::txt('TPL_MATIN_SEARCH'); ?>">
+									<form id="search-form" action="<?php echo Route::url('index.php?option=com_search'); ?>" title="<?php echo Lang::txt('TPL_MATIN_SEARCH'); ?>">
 									  <input type="search" name="googlesearch">
 									</form>
 							</nav>

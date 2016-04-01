@@ -905,6 +905,9 @@ input[type="search"] {
   border-color: #C1C1C1;
   border-radius: 20px; }
 
+#search-form {
+  display: inline-block; }
+
 #searchform {
   position: absolute;
   top: 100%;
