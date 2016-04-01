@@ -21,14 +21,6 @@
 		}
 	}
 
-	[type="search"] {
-		width: 200px;
-		height: 40px;
-		border: 1px solid;
-		border-color: #C1C1C1;
-		border-radius: 20px;
-	}
-
 	[type="submit"] {
 		position: absolute;
 		right: 0;
@@ -43,7 +35,13 @@
 	}
 }
 
-
+input[type="search"] {
+	width: 200px;
+	height: 40px;
+	border: 1px solid;
+	border-color: #C1C1C1;
+	border-radius: 20px;
+}
 
 #searchform {
 	position: absolute;

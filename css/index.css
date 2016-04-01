@@ -888,12 +888,6 @@ section.section {
   box-sizing: border-box; }
   #search [type="text"]:focus, #search [type="text"]:active, #search [type="text"].active {
     border-color: #52A1DE; }
-#search [type="search"] {
-  width: 200px;
-  height: 40px;
-  border: 1px solid;
-  border-color: #C1C1C1;
-  border-radius: 20px; }
 #search [type="submit"] {
   position: absolute;
   right: 0;
@@ -903,6 +897,13 @@ section.section {
   line-height: 24px;
   color: #52A1DE;
   border: 0; }
+
+input[type="search"] {
+  width: 200px;
+  height: 40px;
+  border: 1px solid;
+  border-color: #C1C1C1;
+  border-radius: 20px; }
 
 #searchform {
   position: absolute;
