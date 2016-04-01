@@ -11,6 +11,8 @@
 #nav {
     padding: 0 0 0 20px;
     margin: 0;
+    display: flex;
+    align-items: center;
 
     &:after {
         content: "";
@@ -119,7 +121,7 @@
                 text-align: right;
             }
 
-            
+
         } // second level ul
 
         &>li:hover,
