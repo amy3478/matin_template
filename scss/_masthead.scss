@@ -141,12 +141,12 @@
 
         ul {
             position: absolute;
-            visibility: hidden;
+            // visibility: hidden;
+            display: none;
             right: 0;
             top: 100%;
             background: #222;
             border-top: 2px solid #ccc;
-
 
             li {
                 float: none;
@@ -199,7 +199,7 @@
         &:focus > ul,
         &:hover > form,
         &:focus > form {
-            visibility: visible;
+            // visibility: visible;
             display: block;
         }
 
