@@ -123,10 +123,10 @@ $this->setTitle(Config::get('sitename') . ' - ' . $this->getTitle());
 						<div>
 							<nav id="nav" class="main-navigation" role="main">
 									<jdoc:include type="modules" name="user3" />
-									<ul>
-										<a class="icon-search" href="<?php echo Route::url('index.php?option=com_search'); ?>" title="<?php echo Lang::txt('TPL_MATIN_SEARCH'); ?>"><?php echo Lang::txt('Search'); ?></a>
-					      		<jdoc:include type="modules" name="search" />
-									</ul>
+									<!-- search box-->
+									<form action="<?php echo Route::url('index.php?option=com_search'); ?>" title="<?php echo Lang::txt('TPL_MATIN_SEARCH'); ?>">
+									  <input type="search" name="googlesearch">
+									</form>
 							</nav>
 
 						</div>
