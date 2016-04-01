@@ -67,14 +67,16 @@
                 cursor: default;
 
                 &>ul {
-                    visibility: visible;
+                    // visibility: visible;
+                    display: block;
                 }
             }
         }
 
         // Second level
         ul {
-            visibility: hidden;
+            // visibility: hidden;
+            display: none;
             position: absolute;
             top: 100%;
             left: 0;
@@ -94,6 +96,7 @@
                     background-color: rgba($matin-blue, 0.2);
                 }
             }
+
 
             a {
                 padding: 16px 24px;

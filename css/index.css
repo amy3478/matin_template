@@ -13,6 +13,7 @@
  * @copyright   Copyright 2005-2015 HUBzero Foundation, LLC.
  * @license     http://opensource.org/licenses/MIT MIT
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_reset\.scss}line{font-family:\000038}}
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -34,34 +35,43 @@ time, mark, audio, video {
   vertical-align: baseline; }
 
 /* HTML5 display-role reset for older browsers */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_reset\.scss}line{font-family:\0000329}}
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
   display: block; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_reset\.scss}line{font-family:\0000333}}
 body {
   line-height: 1; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_reset\.scss}line{font-family:\0000336}}
 ol, ul {
   list-style: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_reset\.scss}line{font-family:\0000339}}
 blockquote, q {
   quotes: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_reset\.scss}line{font-family:\0000342}}
 blockquote:before, blockquote:after,
 q:before, q:after {
   content: '';
   content: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_reset\.scss}line{font-family:\0000347}}
 table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_reset\.scss}line{font-family:\0000351}}
 table th {
   text-align: left; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_reset\.scss}line{font-family:\0000354}}
 i, em {
   font-style: italic; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_reset\.scss}line{font-family:\0000357}}
 b, strong {
   font-weight: bold; }
 
@@ -104,126 +114,164 @@ b, strong {
 * @license     http://opensource.org/licenses/MIT MIT
 * @description Pre-defined icon classes
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\000039}}
 *[class^="icon-"]:before,
 *[class*=" icon-"]:before {
   font-family: "Fontcons";
   margin-right: 0.2em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000314}}
 .icon-file:before {
   content: "\f016"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000315}}
 .icon-cart:before {
   content: "\f07a"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000316}}
 .icon-basket:before {
   content: "\f04d"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000317}}
 .icon-warning:before {
   content: "\26A0"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000318}}
 .icon-success:before {
   content: "\f058"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000319}}
 .icon-info:before {
   content: "\f05a"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000320}}
 .icon-error,
 .icon-danger:before {
   content: "\f094"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000322}}
 .icon-email:before {
   content: "\2709"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000323}}
 .icon-add:before {
   content: "\2295"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000324}}
 .icon-delete:before {
   content: "\f014"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000325}}
 .icon-edit:before {
   content: "\270E"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000326}}
 .icon-category,
 .icon-folder:before {
   content: "\f07b"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000328}}
 .icon-search:before {
   content: "\f002"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000329}}
 .icon-stats:before {
   content: "\f004"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000330}}
 .icon-tags:before {
   content: "\f02c"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000331}}
 .icon-tag:before {
   content: "\f02b"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000332}}
 .icon-user:before {
   content: "\f007"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000333}}
 .icon-group:before {
   content: "\f042"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000334}}
 .icon-archive:before {
   content: "\f005"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000335}}
 .icon-config:before {
   content: "\2699"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000336}}
 .icon-abuse:before {
   content: "\2298"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000337}}
 .icon-tag:before {
   content: "\f02b"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000338}}
 .icon-feed:before {
   content: "\f029"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000339}}
 .icon-browse:before {
   content: "\f00b"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000340}}
 .icon-history:before,
 .icon-time:before {
   content: "\f017"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000342}}
 .icon-reply:before {
   content: "\f08a"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000343}}
 .icon-date:before {
   content: "\f073"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000344}}
 .icon-prev:before {
   content: "\2190"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000345}}
 .icon-next:before {
   content: "\2192"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000346}}
 .icon-main:before {
   content: "\f071"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_icons\.scss}line{font-family:\0000347}}
 .icon-points:before {
   content: "\f006"; }
 
 /*****************
 *  Utility Mixins
 ******************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_mixins\.scss}line{font-family:\0000332}}
 .clearfix {
   zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_mixins\.scss}line{font-family:\0000321}}
   .clearfix:before, .clearfix:after {
     display: table;
     content: "";
     line-height: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_mixins\.scss}line{font-family:\0000327}}
   .clearfix:after {
     clear: both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_mixins\.scss}line{font-family:\0000336}}
 .pull-right {
   float: right; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_mixins\.scss}line{font-family:\0000340}}
 .pull-left {
   float: left; }
 
 /* Truncate multiple line text */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_mixins\.scss}line{font-family:\00003123}}
 .hide-text {
   font: 0/0 a;
   color: transparent;
@@ -231,6 +279,7 @@ b, strong {
   background-color: transparent;
   border: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_mixins\.scss}line{font-family:\00003131}}
 .horizontal-wrap {
   display: flex;
   justify-content: space-between;
@@ -242,47 +291,58 @@ b, strong {
 /*****************
 *  GRID SYSTEM
 ******************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\0000327}}
 html {
   font-family: sens-serif; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\0000331}}
 body {
   font-family: "Roboto", "Segoe UI", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
-  color: #343A42;
+  color: #343a42;
   background-color: white; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\0000341}}
 a,
 a:active,
 a:visited {
   text-decoration: none;
-  color: #52A1DE;
+  color: #52a1de;
   border: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\0000348}}
 a:hover,
 a:visited:hover {
   color: #337ab7; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\0000354}}
 ul {
   list-style: disc;
   margin: 0 0 0 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\0000357}}
   ul li {
     margin: 0.5em 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\0000361}}
 ol {
   list-style: decimal;
   margin: 0 0 0 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\0000364}}
   ol li {
     margin: 0.5em 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\0000371}}
 iframe {
   overflow: auto;
   -webkit-overflow-scrolling: touch; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\0000375}}
 p {
   margin: 1em 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\0000378}}
 hr {
   clear: both;
   height: 1px;
@@ -290,21 +350,27 @@ hr {
   margin: 2em 0;
   border: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\0000385}}
 abbr {
   border-bottom: 1px dotted #333; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\0000388}}
 dfn {
   font-style: italic; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\0000391}}
 dl dt {
   font-weight: bold; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\0000394}}
 dl dd {
   margin-left: 2em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\0000397}}
 img {
   border: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003102}}
 h1,
 h2,
 h3,
@@ -315,20 +381,24 @@ h6 {
   color: #4C6085;
   margin: 1em 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003112}}
 h2 {
   line-height: 1.3;
   font-size: 1.9em;
   font-weight: 300;
   letter-spacing: 0.15em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003118}}
 h3 {
   font-size: 1.4em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003121}}
 h4,
 h5,
 h6 {
   font-size: 1.1em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003128}}
 blockquote {
   padding: 0 0 0 1.5em;
   color: #888;
@@ -339,6 +409,7 @@ blockquote {
   margin: 1.5em 0; }
 
 /* Table */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003140}}
 table {
   clear: left;
   width: 100%;
@@ -346,6 +417,7 @@ table {
   font-size: 1em;
   border-collapse: collapse;
   border-bottom: 1px dashed #dadada; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003148}}
   table caption {
     line-height: 1.6em;
     padding: 0.4045084975em 0.61803399em;
@@ -356,24 +428,29 @@ table {
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     hyphens: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003159}}
   table th,
   table td {
     vertical-align: top;
     line-height: 1.6em;
     padding: 0.4045084975em 0.61803399em;
     border-bottom: 1px solid #dadada; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003166}}
   table th {
     font-weight: bold;
     white-space: nowrap; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003172}}
 #splash .inner-wrap .inner .wrap {
   position: relative; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003177}}
 #content-header {
   display: flex;
   justify-content: space-between;
   align-items: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\0000312}}
 #masthead {
   background-color: white;
   color: #606060;
@@ -385,6 +462,7 @@ table {
   top: 0;
   left: 0;
   right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\0000324}}
   #masthead h1 {
     margin: 0;
     padding: 0 30px;
@@ -394,6 +472,7 @@ table {
     font-weight: normal;
     font-style: normal;
     font-size: 48px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\0000334}}
     #masthead h1 a {
       position: relative;
       display: block;
@@ -402,17 +481,21 @@ table {
       font-weight: normal;
       font-style: normal;
       padding: 0.5em 0;
-      color: #EEB211; }
+      color: #eeb211; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\0000344}}
       #masthead h1 a:hover {
         text-decoration: none;
         border: none; }
 
 @media (min-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\0000354}}
   #masthead {
     position: fixed; } }
 @media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\0000360}}
   #masthead h1 {
     padding-left: 60px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\0000369}}
 #account {
   float: right;
   list-style: none;
@@ -420,44 +503,54 @@ table {
   padding: 0;
   position: relative;
   z-index: 798; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\0000377}}
   #account.loggedin {
     cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\0000381}}
   #account a:hover,
   #account a:focus {
     color: #337ab7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\0000386}}
   #account img {
     margin: 0;
     padding: 0;
     border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\0000392}}
   #account li {
     list-style: none;
     margin: 0 0 0 1em;
     padding: 0;
     float: left;
     line-height: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\0000399}}
     #account li > a {
       display: block;
       border: none;
       border-radius: 4px;
-      color: #52A1DE;
+      color: #52a1de;
       line-height: 2.85;
       font-size: 16px;
       padding: 0 1em 0 1em;
       overflow: hidden;
       white-space: nowrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003110}}
       #account li > a:before {
         content: "";
         font-family: "Fontcons";
         margin-right: 0.5em;
         font-size: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003117}}
       #account li > a.icon-login {
-        background-color: #EEB211;
+        background-color: #eeb211;
         color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003121}}
       #account li > a.icon-login:hover {
         background-color: #725508;
         color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003136}}
       #account li > a:hover, #account li > a:focus {
         color: #337ab7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003142}}
     #account li ul {
       position: absolute;
       display: none;
@@ -465,9 +558,11 @@ table {
       top: 100%;
       background: #222;
       border-top: 2px solid #ccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003151}}
       #account li ul li {
         float: none;
         border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003154}}
         #account li ul li a {
           display: block;
           color: #bbb;
@@ -477,8 +572,10 @@ table {
           line-height: 1;
           border: none;
           padding: 0.8em 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003164}}
           #account li ul li a:hover, #account li ul li a:focus {
             color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003168}}
           #account li ul li a:before {
             content: "";
             display: inline-block;
@@ -487,65 +584,82 @@ table {
             width: 1em;
             height: 1em;
             margin-right: 0.2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003194}}
     #account li form {
       display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003198}}
     #account li:hover > ul, #account li:focus > ul, #account li:hover > form, #account li:focus > form {
       display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003206}}
     #account li:hover img, #account lifocus img {
       border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003210}}
     #account li.loggedin > a {
       width: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003213}}
       #account li.loggedin > a:before {
         content: "";
         display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003220}}
   #account .account-details {
     display: none; }
 
 @media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003226}}
   #account {
     margin: 20px 60px 0 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003231}}
 #content-header, .content-header {
   padding: 10px 60px;
   background-color: rgba(82, 161, 222, 0.12); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_masthead\.scss}line{font-family:\00003235}}
   #content-header .content-title, .content-header .content-title {
-    color: #343A42;
+    color: #343a42;
     font-size: 24px;
     font-weight: 400;
     letter-spacing: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000311}}
 #nav {
   padding: 0;
   margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000315}}
   #nav:after {
     content: "";
     display: table;
     line-height: 0;
     clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000322}}
   #nav h2 {
     display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000326}}
   #nav ul.menu,
   #nav ul.menu li,
   #nav ul.menu ul {
     list-style: none;
     pargin: 0;
     padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000333}}
   #nav ul.menu {
     z-index: 797;
     float: left;
     padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000338}}
     #nav ul.menu span.seperator {
       display: block;
       padding: 0.8em 1em;
       border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000344}}
     #nav ul.menu a {
       display: block;
       border: none;
-      color: #343A42;
+      color: #343a42;
       font-family: "Roboto-Medium", "Segoe UI-Medium", sans-serif-medium;
       font-size: 16px;
       font-weight: 500;
       padding: 0 1em;
       line-height: 4em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000355}}
     #nav ul.menu li {
       float: left;
       line-height: 1.3em;
@@ -554,13 +668,16 @@ table {
       zoom: 1;
       padding: 0;
       border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000364}}
       #nav ul.menu li:hover, #nav ul.menu li:focus {
         z-index: 799;
         cursor: default; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000369}}
         #nav ul.menu li:hover > ul, #nav ul.menu li:focus > ul {
-          visibility: visible; }
+          display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000377}}
     #nav ul.menu ul {
-      visibility: hidden;
+      display: none;
       position: absolute;
       top: 100%;
       left: 0;
@@ -572,17 +689,20 @@ table {
       -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 0px 4px rgba(0, 0, 0, 0.04);
       -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 0px 4px rgba(0, 0, 0, 0.04);
       box-shadow: 0 2px 2px rgba(0, 0, 0, 0.12), 0 0px 4px rgba(0, 0, 0, 0.04); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000390}}
       #nav ul.menu ul li {
         float: none;
         font-weight: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\0000393}}
         #nav ul.menu ul li:hover > a, #nav ul.menu ul li:focus > a {
-          color: #52A1DE;
+          color: #52a1de;
           background-color: rgba(82, 161, 222, 0.2); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003101}}
       #nav ul.menu ul a {
         padding: 16px 24px;
         text-transform: none;
         line-height: 1;
-        color: #343A42;
+        color: #343a42;
         border: none;
         font-size: 1em;
         font-weight: 400;
@@ -591,6 +711,7 @@ table {
         -moz-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
         transition: all 0.2s ease-in-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003113}}
       #nav ul.menu ul.parents > a:after {
         font-family: 'Fontcons';
         content: "\203A";
@@ -601,8 +722,10 @@ table {
         width: 1em;
         height: 1em;
         text-align: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003130}}
     #nav ul.menu > li:hover > a, #nav ul.menu > li:focus > a {
-      color: #343A42; }
+      color: #343a42; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003135}}
     #nav ul.menu .toggle {
       font-family: 'Fontcons';
       display: none;
@@ -616,20 +739,25 @@ table {
       padding: 1em;
       width: 2.7em;
       height: 3em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003149}}
       #nav ul.menu .toggle:before {
         content: "\203A"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003155}}
     #nav ul.menu .active > .toggle:before {
       content: "\2304"; }
   @media (max-width: 60em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003163}}
     #nav #nav {
       float: left;
       cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003167}}
       #nav #nav:before {
         content: "\f036";
         font-family: "Fontcons";
         font-size: 1.5em;
         padding: 0.85em 0.9em 0.8em 0.9em;
         display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003175}}
       #nav #nav ul.menu {
         float: none;
         width: 100%;
@@ -638,12 +766,15 @@ table {
         left: 0;
         right: 0;
         background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003184}}
         #nav #nav ul.menu > li {
           float: none;
           display: none;
           border-top: 1px solid #f1f1f1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003189}}
         #nav #nav ul.menu > li > a {
           color: #222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003193}}
         #nav #nav ul.menu ul {
           position: static;
           left: auto;
@@ -651,50 +782,65 @@ table {
           visibility: visible;
           display: none;
           width: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003202}}
           #nav #nav ul.menu ul li.parent > a:after {
             display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003210}}
         #nav #nav ul.menu li.active > ul {
           display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003216}}
         #nav #nav ul.menu .toggle {
           display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003221}}
       #nav #nav.active, #nav #nav:hover {
         background: #fff;
         color: #222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003226}}
         #nav #nav.active ul.menu > li, #nav #nav:hover ul.menu > li {
           display: block;
           text-align: center; } }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_menu\.scss}line{font-family:\00003236}}
 .dropdown {
   position: absolute; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\0000313}}
 .aside {
   background: #f1f1f1;
   padding: 30px;
   margin: 0px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\0000318}}
   .aside > *:first-child {
     padding-top: 0;
     margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\0000323}}
   .aside p {
     margin: 1em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\0000327}}
   .aside h3,
   .aside h4 {
     text-transform: uppercase;
     font-size: 1em;
     font-weight: 500;
     letter-spacing: 0.1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\0000335}}
   .aside ul,
   .aside ol {
     padding: 0;
     margin: 0;
     list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\0000342}}
   .aside li {
     margin: 0;
     padding: 0;
     border-top: 1px solid #e1e1e1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\0000347}}
     .aside li.parent {
       border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\0000350}}
     .aside li li {
       padding-left: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\0000354}}
     .aside li strong,
     .aside li a {
       display: block;
@@ -706,6 +852,7 @@ table {
       font-style: normal;
       position: relative;
       color: #888; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\0000366}}
       .aside li strong:before,
       .aside li a:before {
         content: "";
@@ -720,24 +867,31 @@ table {
         top: 1.6em;
         left: 0;
         margin-top: -0.32em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\0000381}}
       .aside li strong:hover,
       .aside li a:hover {
         color: #222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\0000384}}
         .aside li strong:hover:before,
         .aside li a:hover:before {
           border-color: transparent transparent transparent #222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\0000389}}
       .aside li strong.active,
       .aside li a.active {
         font-weight: bold;
         color: #222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\0000393}}
         .aside li strong.active:before,
         .aside li a.active:before {
           border-color: transparent transparent transparent #222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\0000399}}
     .aside li.active > a {
       font-weight: bold;
       color: #222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003103}}
       .aside li.active > a:before {
         border-color: transparent transparent transparent #222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003108}}
     .aside li .item-count {
       display: block;
       position: absolute;
@@ -752,27 +906,34 @@ table {
       font-weight: normal;
       line-height: 1;
       font-size: 90%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003123}}
   .aside ol:last-child,
   .aside ul:last-child,
   .aside p:last-child {
     margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003129}}
   .aside legend {
     font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003132}}
   .aside fieldset fieldset {
     border: 1px solid #ccc;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0.5em 1em 1em 1em;
     margin: 1em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003138}}
     .aside fieldset fieldset legend {
       padding: 0 0.4em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003142}}
   .aside label {
     display: block;
     padding: 0.5em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003146}}
     .aside label input,
     .aside label select,
     .aside label textarea {
       margin-top: 0.25em;
       width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003152}}
     .aside label .option,
     .aside label input[type="checkbox"],
     .aside label input[type="radio"] {
@@ -783,6 +944,7 @@ table {
 	margin: @spacing -@spacing -@spacing -@spacing;
 }
 */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003164}}
 .contentpaneopen,
 section.section {
   background: #f9f9f9;
@@ -791,6 +953,7 @@ section.section {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003170}}
 .subject .contentpaneopen {
   padding: 0; }
 
@@ -802,6 +965,7 @@ section.section {
 		margin: @spacing;
 	}
 }*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003181}}
 .contentpaneopen:after {
   content: "";
   display: table;
@@ -809,68 +973,91 @@ section.section {
   clear: both; }
 
 @media (min-width: 60em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003192}}
   section.section {
     display: table;
     vertical-align: top;
     width: 100%;
     table-layout: fixed; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003198}}
     section.section > .section-inner {
       display: table-row; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003202}}
     section.section .subject,
     section.section .aside {
       display: table-cell;
       vertical-align: top;
       margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003208}}
     section.section .subject {
       padding: 0 30px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003211}}
     section.section .aside {
       width: 260px;
       min-width: 260px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003215}}
     section.section .aside + .subject {
       padding: 0 0 0 30px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003221}}
   #page_content section.section {
     display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003224}}
     #page_content section.section > .section-inner {
       display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003228}}
     #page_content section.section .subject,
     #page_content section.section .aside {
       display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003232}}
     #page_content section.section .subject {
       padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003235}}
     #page_content section.section .aside {
       width: auto;
       min-width: auto;
       padding: 30px 0 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003240}}
     #page_content section.section .aside + .subject {
       padding: 30px 0 0 0; } }
 @media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003248}}
   section.section {
     padding: 30px 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003250}}
     section.section .subject {
       padding: 0 60px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003253}}
     section.section .aside + .subject {
       padding: 0 0 0 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003256}}
     section.section .aside {
       width: 320px;
       min-width: 320px;
       padding: 30px 60px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003263}}
   #page_content section.section {
     display: table; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003266}}
     #page_content section.section > .section-inner {
       display: table-row; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003270}}
     #page_content section.section .subject,
     #page_content section.section .aside {
       display: table-cell; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003274}}
     #page_content section.section .subject {
       padding: 0 30px 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003277}}
     #page_content section.section .aside {
       width: 260px;
       min-width: 260px;
       padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_section\.scss}line{font-family:\00003282}}
     #page_content section.section .aside + .subject {
       padding: 0 0 0 30px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_search\.scss}line{font-family:\000034}}
 #search [type="text"] {
   width: 240px;
   height: 40px;
@@ -878,15 +1065,17 @@ section.section {
   padding-left: 16px;
   font-size: 14px;
   background-color: #FFF;
-  border: 1px solid #C1C1C1;
+  border: 1px solid #c1c1c1;
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_search\.scss}line{font-family:\0000317}}
   #search [type="text"]:focus, #search [type="text"]:active, #search [type="text"].active {
-    border-color: #52A1DE; }
+    border-color: #52a1de; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_search\.scss}line{font-family:\0000324}}
 #search [type="submit"] {
   position: absolute;
   right: 0;
@@ -894,9 +1083,10 @@ section.section {
   background: transparent;
   font-size: 20px;
   line-height: 24px;
-  color: #52A1DE;
+  color: #52a1de;
   border: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_search\.scss}line{font-family:\0000340}}
 #searchform {
   position: absolute;
   top: 100%;
@@ -905,16 +1095,20 @@ section.section {
   background: #222;
   background: rgba(0, 0, 0, 0.9);
   border-top: 2px solid #ccc; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_search\.scss}line{font-family:\0000349}}
   #searchform fieldset {
     border: none;
     background: transparent;
     margin: 0;
     padding: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_search\.scss}line{font-family:\0000355}}
     #searchform fieldset legend,
     #searchform fieldset label {
       display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_search\.scss}line{font-family:\0000361}}
   #searchform input {
     float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_search\.scss}line{font-family:\0000364}}
   #searchform input#submitquery {
     width: 20%;
     padding: 0.6045084975em;
@@ -933,55 +1127,69 @@ section.section {
     line-height: 1.61803399em;
     border: 1px solid #D9D9D9;
     border: 1px solid rgba(0, 0, 0, 0.15); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_search\.scss}line{font-family:\0000376}}
     #searchform input#submitquery:hover, #searchform input#submitquery:focus {
       background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_search\.scss}line{font-family:\0000381}}
   #searchform input#searchword {
     width: 80%;
     background-color: #ccc;
     background-color: rgba(200, 200, 200, 0.3); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_search\.scss}line{font-family:\0000386}}
     #searchform input#searchword:hover, #searchform input#searchword:focus {
       background-color: #ddd;
       background-color: rgba(200, 200, 200, 0.5);
       color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_breadcrumbs\.scss}line{font-family:\0000312}}
 #top {
   padding-top: 4em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_breadcrumbs\.scss}line{font-family:\0000316}}
 #sub-masthead {
   margin: 0;
   padding: 0 30px;
   vertical-align: baseline;
   display: block;
   font-size: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_breadcrumbs\.scss}line{font-family:\0000324}}
   #sub-masthead.fixed {
     margin: 4.75em 0, 0, 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_breadcrumbs\.scss}line{font-family:\0000330}}
 #trail {
   margin: 0 7em 0 0;
   padding: 0;
-  color: #343A42; }
+  color: #343a42; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_breadcrumbs\.scss}line{font-family:\0000335}}
   #trail span.pathway {
     display: block;
     padding: 0.95em 0 0.95em 0;
     margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_breadcrumbs\.scss}line{font-family:\0000340}}
   #trail a {
-    color: #52A1DE;
+    color: #52a1de;
     border-bottom: 1px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_breadcrumbs\.scss}line{font-family:\0000343}}
     #trail a:hover {
       color: #337ab7;
       border-bottom: 1px solid #337ab7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_breadcrumbs\.scss}line{font-family:\0000348}}
   #trail .sep {
     padding: 0 0.2em; }
 
 @media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_breadcrumbs\.scss}line{font-family:\0000354}}
   #sub-masthead {
     padding: 0 60px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_breadcrumbs\.scss}line{font-family:\0000359}}
 .breadcrumbs {
   font-size: 12px; }
 
 /*****************
 *  Base Styles
 ******************/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000316}}
 .btn {
   display: inline-block;
   padding: 0.5em 1em;
@@ -990,7 +1198,7 @@ section.section {
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px;
-  color: #52A1DE;
+  color: #52a1de;
   font-size: 1.125em;
   line-height: 1;
   outline: 0;
@@ -1006,18 +1214,24 @@ section.section {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000340}}
   .btn:hover, .btn:focus, .btn:visited:hover {
     color: rgba(82, 161, 222, 0.56); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000346}}
   .btn:focus {
     outline: thin dotted #333;
     outline: 5px auto -webkit-focus-ring-color;
     outline-offset: -2px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000350}}
   .btn.active, .btn:active {
     outline: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000355}}
   .btn.disabled, .btn[disabled] {
     cursor: default; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000360}}
   .btn[class^="icon-"], .btn[class*=" icon-"] {
     padding: 0.7em 0.91em 0.7em 1.91em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000364}}
   .btn[class^="icon-"]:before, .btn[class*=" icon-"]:before {
     margin-right: 0.2em;
     font-family: "Fontcons";
@@ -1030,14 +1244,17 @@ section.section {
     width: 1em;
     text-align: center;
     font-weight: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000379}}
   .btn.opposite[class^="icon-"], .btn.opposite[class*=" icon-"] {
     padding: 0.7em 1.91em 0.7em 0.91em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000383}}
   .btn.opposite[class^="icon-"]:before, .btn.opposite[class*=" icon-"]:before {
     left: auto;
     right: 0;
     margin: 0 0 0 0.2em;
     padding: 0 0.7em 0 0.3em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\0000391}}
 .btn-basic, header .btn,
 #content-header-extra .btn {
   display: block;
@@ -1048,24 +1265,28 @@ section.section {
   font-weight: 400;
   line-height: 36px;
   background-color: #FFF;
-  border: 1px solid #D8DDE6;
+  border: 1px solid #d8dde6;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   border-radius: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003106}}
   .btn-basic:hover, header .btn:hover,
   #content-header-extra .btn:hover, .btn-basic:focus, header .btn:focus,
   #content-header-extra .btn:focus, .btn-basic:visited:hover, header .btn:visited:hover,
   #content-header-extra .btn:visited:hover {
-    border: 1px solid #D8DDE6; }
+    border: 1px solid #d8dde6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003112}}
   .btn-basic.disabled, header .disabled.btn,
   #content-header-extra .disabled.btn, .btn-basic[disabled], header [disabled].btn,
   #content-header-extra [disabled].btn {
-    background-color: #C1C1C1;
+    background-color: #c1c1c1;
     color: #919191; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003117}}
   .btn-basic[class^="icon-"], header [class^="icon-"].btn,
   #content-header-extra [class^="icon-"].btn, .btn-basic[class*=" icon-"], header [class*=" icon-"].btn,
   #content-header-extra [class*=" icon-"].btn {
     padding-left: 1.91em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003121}}
   .btn-basic[class^="icon-"]:before, header [class^="icon-"].btn:before,
   #content-header-extra [class^="icon-"].btn:before, .btn-basic[class*=" icon-"]:before, header [class*=" icon-"].btn:before,
   #content-header-extra [class*=" icon-"].btn:before {
@@ -1081,19 +1302,23 @@ section.section {
     text-align: center;
     font-weight: normal; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003136}}
 .btn-brand {
-  background-color: #EEB211;
+  background-color: #eeb211;
   border-color: transparent;
   color: #FFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003141}}
   .btn-brand:hover, .btn-brand:focus, .btn-brand:visited:hover {
     background-color: #b5870d;
     color: #FFF; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003155}}
 button.btn::-moz-focus-inner,
 input[type="submit"].btn::-moz-focus-inner {
   padding: 0;
   border: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003162}}
 .btn-group {
   position: relative;
   display: inline-block;
@@ -1103,35 +1328,44 @@ input[type="submit"].btn::-moz-focus-inner {
   vertical-align: middle;
   white-space: nowrap;
   margin-left: .3em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_mixins\.scss}line{font-family:\0000372}}
   .btn-group:first-child {
     margin-left: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003171}}
 .btn-group + .btn-group {
   margin-left: 0.2em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003174}}
 .btn-group > .btn {
   position: relative; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003178}}
 .btn-group > .btn + .btn {
   margin-left: -2px;
   border-left-color: transparent; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003182}}
 .btn-group > .btn + .btn:hover {
   border-left-color: #222; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003185}}
 .btn-group > .btn,
 .btn-group > .dropdown-menu,
 .btn-group > .popover {
   font-size: 13px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003191}}
 .btn-group.btn-secondary > .btn,
 .btn-group.btn-secondary > .dropdown-menu,
 .btn-group.btn-secondary > .popover {
   font-size: 11.05px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003196}}
 .btn-group.btn-secondary > .btn {
   padding: 0.55em 0.66em 0.55em 0.66em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003200}}
 .btn-group > .btn:first-child {
   margin-left: 0; }
 
@@ -1140,16 +1374,19 @@ input[type="submit"].btn::-moz-focus-inner {
 	border-left-color: transparent;
 	//.border-radius(0 @baseBorderRadius @baseBorderRadius 0);
 }*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003210}}
 .btn-group > .btn:hover,
 .btn-group > .btn:focus,
 .btn-group > .btn:active,
 .btn-group > .btn.active {
   z-index: 2; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003217}}
 .btn-group .dropdown-toggle:active,
 .btn-group.open .dropdown-toggle {
   outline: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003222}}
 .btn-group > .btn + .dropdown-toggle {
   padding-left: 0.75em;
   padding-right: 0.75em; }
@@ -1173,6 +1410,7 @@ input[type="submit"].btn::-moz-focus-inner {
 	height: 2.25em;
 	height: 2.275em\9;
 }*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003249}}
 .btn-group span.dropdown-toggle:before,
 .btn .caret {
   margin-top: 0.4em;
@@ -1186,12 +1424,14 @@ input[type="submit"].btn::-moz-focus-inner {
   border-left: 4px solid transparent;
   content: ""; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003262}}
 .btn-group.dropup span.dropdown-toggle:before {
   border-bottom: 4px solid #000000;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent;
   border-top: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003268}}
 .btn-group:hover.btn .caret,
 .btn-group span.dropdown-toggle:hover:before,
 .btn-group span.dropdown-toggle:hover:before {
@@ -1200,10 +1440,12 @@ input[type="submit"].btn::-moz-focus-inner {
 /*.btn-group .dropdown-toggle:hover {
 	border-left-color: #222;
 }*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003276}}
 .btn-group.dropup span.dropdown-toggle:hover:before,
 .btn-group.dropup span.dropdown-toggle:hover:before {
   border-bottom-color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003281}}
 .btn-group .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -1224,22 +1466,27 @@ input[type="submit"].btn::-moz-focus-inner {
   -moz-background-clip: padding;
   background-clip: padding-box; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003303}}
 .dropup .dropdown-menu {
   top: auto;
   bottom: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003308}}
 .btn-group .dropdown-toggle:hover + .dropdown-menu,
 .btn-group:hover .dropdown-menu,
 .open > .dropdown-menu {
   display: block; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003313}}
 .btn-group > .btn:first-child:hover .dropdown-menu,
 .btn-group:hover > .btn:first-child:hover + .dropdown-toggle + .dropdown-menu {
   display: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003317}}
 .btn-group:hover > .btn:first-child:hover + .dropdown-toggle {
   background: #FFF; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003321}}
 .dropdown-menu .divider {
   height: 1px;
   margin: 9px 1px;
@@ -1247,6 +1494,7 @@ input[type="submit"].btn::-moz-focus-inner {
   background-color: #e5e5e5;
   border-bottom: 1px solid #ffffff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003328}}
 .dropdown-menu > li > a {
   display: block;
   padding: 0.2em 1em;
@@ -1255,9 +1503,11 @@ input[type="submit"].btn::-moz-focus-inner {
   line-height: 1.5em;
   border: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003342}}
 #content-header-extra a.all {
   padding: 0.4em 0.91em 0.4em 0.91em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003347}}
 #content-header-extra .dropdown-menu {
   left: auto;
   right: 0;
@@ -1271,14 +1521,18 @@ input[type="submit"].btn::-moz-focus-inner {
   -moz-box-shadow: none;
   box-shadow: none;
   min-width: 3em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003357}}
   #content-header-extra .dropdown-menu li {
     margin: 0;
     display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003361}}
   #content-header-extra .dropdown-menu a {
     color: rgba(255, 255, 255, 0.8); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003364}}
     #content-header-extra .dropdown-menu a:hover {
       color: #fff;
       background: rgba(0, 0, 0, 0.4); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003370}}
 #content-header-extra .btn-group > .btn:first-child,
 #content-header-extra .btn-group > .btn:last-child,
 #content-header-extra .btn-group > .dropdown-toggle {
@@ -1288,18 +1542,22 @@ input[type="submit"].btn::-moz-focus-inner {
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   border-radius: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003376}}
 #content-header-extra .btn-group > .btn:first-child {
   border-right: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003379}}
 #content-header-extra .btn-group > .btn:last-child,
 #content-header-extra .btn-group > .dropdown-toggle {
   border-left: 1px solid rgba(255, 255, 255, 0.2);
   height: 2.7em;
   height: 2.75em\9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003385}}
 #content-header-extra .btn-group span.dropdown-toggle:before,
 #content-header-extra .btn .caret {
   border-top: 4px solid  #fff;
   border-right: 4px solid transparent;
   border-left: 4px solid transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003391}}
 #content-header-extra .btn-group.dropup span.dropdown-toggle:before {
   border-bottom: 4px solid  #fff;
   border-right: 4px solid transparent;
@@ -1307,58 +1565,69 @@ input[type="submit"].btn::-moz-focus-inner {
   border-top: none; }
 
 @media (min-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003400}}
   #page_options .btn {
     background: transparent;
     border-color: rgba(255, 255, 255, 0.5);
     color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_buttons\.scss}line{font-family:\00003406}}
     #page_options .btn:hover, #page_options .btn:focus {
       border-color: #fff;
       background: #fff;
       color: #222; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tabs\.scss}line{font-family:\000031}}
 .tabs {
   margin: 32px 0;
   list-style: none;
-  border-bottom: 1px solid #E5E5E5; }
+  border-bottom: 1px solid #e5e5e5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tabs\.scss}line{font-family:\000035}}
   .tabs .tab {
     display: block;
     position: relative;
     float: left;
     margin-bottom: -1px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tabs\.scss}line{font-family:\0000311}}
     .tabs .tab a {
       display: block;
       position: relative;
       padding: 16px;
       min-width: 64px;
       border: 1px solid transparent;
-      color: #343A42;
+      color: #343a42;
       font-size: 14px;
       line-height: 1.25;
       text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tabs\.scss}line{font-family:\0000326}}
     .tabs .tab.active a {
       background-color: #FFF;
-      border: 1px solid #E5E5E5;
-      border-top: 2px solid #EEB211;
+      border: 1px solid #e5e5e5;
+      border-top: 2px solid #eeb211;
       border-bottom-color: transparent;
       cursor: default; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tabs\.scss}line{font-family:\0000347}}
 ul.sub-menu {
   list-style: none;
   padding: 1em 30px 0 30px;
   margin: 0;
-  border-bottom: 1px solid #BABABA;
+  border-bottom: 1px solid #bababa;
   *zoom: 1;
   zoom: 1;
   background: #e1e1e1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_mixins\.scss}line{font-family:\0000321}}
   ul.sub-menu:before, ul.sub-menu:after {
     display: table;
     content: "";
     line-height: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_mixins\.scss}line{font-family:\0000327}}
   ul.sub-menu:after {
     clear: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tabs\.scss}line{font-family:\0000356}}
   ul.sub-menu li {
     float: left;
     margin: 0;
     padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tabs\.scss}line{font-family:\0000360}}
     ul.sub-menu li a {
       position: relative;
       top: 1px;
@@ -1371,224 +1640,282 @@ ul.sub-menu {
       padding: 0.75em 1em;
       text-align: center;
       line-height: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tabs\.scss}line{font-family:\0000373}}
       ul.sub-menu li a:hover {
         border-color: #6e6e6e;
         background: #8f8f8f;
         color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tabs\.scss}line{font-family:\0000380}}
     ul.sub-menu li.active a, ul.sub-menu li.active a:hover {
       background: #f9f9f9;
       color: #606060;
-      border-color: #BABABA; }
+      border-color: #bababa; }
 
 @media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tabs\.scss}line{font-family:\0000390}}
   ul.sub-menu {
     padding: 1em 60px 0 60px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000312}}
 .grid {
   max-width: 100%;
   zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_mixins\.scss}line{font-family:\0000321}}
   .grid:before, .grid:after {
     display: table;
     content: "";
     line-height: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_mixins\.scss}line{font-family:\0000327}}
   .grid:after {
     clear: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000316}}
   .grid .col {
     display: block;
     width: 100%;
     min-height: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000321}}
     .grid .col.omega {
       margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000326}}
   .grid [class*="span"] {
     float: left;
-    margin-right: 3.225806%; }
+    margin-right: 3.22581%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000334}}
 .grid .span-whole,
 .grid .span12 {
   width: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000338}}
 .grid .span11 {
-  width: 91.397849%; }
+  width: 91.39785%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000341}}
 .grid .span10 {
-  width: 82.795699%; }
+  width: 82.7957%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000344}}
 .grid .span-three-quarters,
 .grid .span9 {
-  width: 74.193548%; }
+  width: 74.19355%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000348}}
 .grid .span-two-thirds,
 .grid .span8 {
-  width: 65.591398%; }
+  width: 65.5914%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000352}}
 .grid .span7 {
-  width: 56.989247%; }
+  width: 56.98925%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000355}}
 .grid .span-half,
 .grid .span6 {
-  width: 48.387097%; }
+  width: 48.3871%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000359}}
 .grid .span5 {
-  width: 39.784946%; }
+  width: 39.78495%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000362}}
 .grid .span-third,
 .grid .span4 {
-  width: 31.182796%; }
+  width: 31.1828%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000366}}
 .grid .span-quarter,
 .grid .span3 {
-  width: 22.580645%; }
+  width: 22.58065%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000370}}
 .grid .span2 {
-  width: 13.978495%; }
+  width: 13.97849%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000373}}
 .grid .span1 {
-  width: 5.376344%; }
+  width: 5.37634%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000378}}
 .grid .offset-whole,
 .grid .offset12 {
-  margin-left: 103.225806%; }
+  margin-left: 103.22581%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000382}}
 .grid .offset11 {
-  margin-left: 94.623656%; }
+  margin-left: 94.62366%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000385}}
 .grid .offset10 {
-  margin-left: 86.021505%; }
+  margin-left: 86.02151%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000388}}
 .grid .offset-three-quarters,
 .grid .offset9 {
-  margin-left: 77.419355%; }
+  margin-left: 77.41935%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000392}}
 .grid .offset-two-thirds,
 .grid .offset8 {
-  margin-left: 68.817204%; }
+  margin-left: 68.8172%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000396}}
 .grid .offset7 {
-  margin-left: 60.215054%; }
+  margin-left: 60.21505%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\0000399}}
 .grid .offset-half,
 .grid .offset6 {
-  margin-left: 51.612903%; }
+  margin-left: 51.6129%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003103}}
 .grid .offset5 {
-  margin-left: 43.010753%; }
+  margin-left: 43.01075%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003106}}
 .grid .offset-third,
 .grid .offset4 {
-  margin-left: 34.408602%; }
+  margin-left: 34.4086%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003110}}
 .grid .offset-quarter,
 .grid .offset3 {
-  margin-left: 25.806452%; }
+  margin-left: 25.80645%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003114}}
 .grid .offset2 {
-  margin-left: 17.204301%; }
+  margin-left: 17.2043%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003117}}
 .grid .offset1 {
-  margin-left: 8.602151%; }
+  margin-left: 8.60215%; }
 
 @media only screen and (max-width: 1023px) and (min-width: 900px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003125}}
   .grid:not(.nobreak) .col:first-child:nth-last-child(6),
   .grid:not(.nobreak) .col:first-child:nth-last-child(6) ~ .col {
     float: left;
-    width: 31.182796%; }
+    width: 31.1828%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003131}}
   .grid:not(.nobreak) .col:first-child:nth-last-child(6) ~ .col:nth-child(3n) {
     margin-right: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003136}}
   .grid:not(.nobreak) .col:first-child:nth-last-child(6),
   .grid:not(.nobreak) .col:first-child:nth-last-child(6) ~ .col:nth-child(-n + 3) {
     margin-bottom: 2em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003142}}
   .grid:not(.nobreak) .col:first-child:nth-last-child(6) ~ .col:nth-child(4) {
     clear: left; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003146}}
   .grid.break6 > .col {
     float: none !important;
     width: 100% !important; } }
 @media only screen and (max-width: 1000px) and (min-width: 501px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003153}}
   .grid:not(.nobreak) .col:first-child:nth-last-child(4),
   .grid:not(.nobreak) .col:first-child:nth-last-child(4) ~ .col {
     float: left;
-    width: 48.387097%; }
+    width: 48.3871%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003159}}
   .grid:not(.nobreak) .col:first-child:nth-last-child(4) ~ .col:nth-child(2) {
     margin-right: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003164}}
   .grid:not(.nobreak) .col:first-child:nth-last-child(4),
   .grid:not(.nobreak) .col:first-child:nth-last-child(4) ~ .col:nth-child(-n + 2) {
     margin-bottom: 2em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003170}}
   .grid:not(.nobreak) .col:first-child:nth-last-child(4) ~ .col:nth-child(3) {
     clear: left; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003174}}
   .grid.break6 > .col,
   .grid.break4 > .col {
     float: none !important;
     width: 100% !important; } }
 @media only screen and (max-width: 900px) and (min-width: 501px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003182}}
   .grid:not(.nobreak) .col:first-child:nth-last-child(3),
   .grid:not(.nobreak) .col:first-child:nth-last-child(3) ~ .col {
     float: none !important;
     width: 100% !important; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003188}}
   .grid:not(.nobreak) .col:first-child:nth-last-child(3),
   .grid:not(.nobreak) .col:first-child:nth-last-child(3) ~ .col:nth-child(-n + 2) {
     margin-bottom: 2em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003192}}
   .break3 > .col {
     float: none;
     width: 100%;
     margin-right: 0;
     margin-left: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003200}}
   .grid:not(.nobreak) .col:first-child:nth-last-child(6),
   .grid:not(.nobreak) .col:first-child:nth-last-child(6) ~ .col {
     float: left;
-    width: 48.387097%; }
+    width: 48.3871%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003206}}
   .grid:not(.nobreak) .col:first-child:nth-last-child(6) ~ .col:nth-child(2n) {
     margin-right: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003211}}
   .grid:not(.nobreak) .col:first-child:nth-last-child(6),
   .grid:not(.nobreak) .col:first-child:nth-last-child(6) ~ .col:nth-child(-n + 4) {
     margin-bottom: 2em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003217}}
   .grid:not(.nobreak) .col:first-child:nth-last-child(6) ~ .col:nth-child(3),
   .grid:not(.nobreak) .col:first-child:nth-last-child(6) ~ .col:nth-child(5) {
     clear: left; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003222}}
   .grid.break6 > .col,
   .grid.break4 > .col,
   .grid.break3 > .col {
     float: none !important;
     width: 100% !important; } }
 @media only screen and (max-width: 500px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_grid\.scss}line{font-family:\00003232}}
   .grid:not(.nobreak) .col {
     float: none !important;
     width: 100% !important; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\000039}}
 .container > *:first-child {
   padding-top: 0;
   margin-top: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\0000313}}
 .container + .container {
   margin-top: 30px; }
 
 /* Entries search */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\0000318}}
 .data-entry {
   margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\0000321}}
   .data-entry fieldset {
     margin: 0 1em 0 0;
     padding: 0;
     border: none;
     background: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\0000327}}
     .data-entry fieldset legend,
     .data-entry fieldset label {
       display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\0000332}}
   .data-entry input,
   .data-entry input[type="text"],
   .data-entry input[type="submit"] {
     width: 100%;
-    border: 1px solid #D8DDE6;
+    border: 1px solid #d8dde6;
     background: #FFF;
     padding: 0.618em 1em;
     margin: 0;
@@ -1610,20 +1937,22 @@ ul.sub-menu {
     -moz-transition: all 0.1s ease-out;
     -o-transition: all 0.1s ease-out;
     transition: all 0.1s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\0000351}}
     .data-entry input:hover, .data-entry input:focus,
     .data-entry input[type="text"]:hover,
     .data-entry input[type="text"]:focus,
     .data-entry input[type="submit"]:hover,
     .data-entry input[type="submit"]:focus {
       background: #fff;
-      border-color: #52A1DE; }
+      border-color: #52a1de; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\0000359}}
   .data-entry input.entry-search-submit {
     font-size: 18px;
     font-weight: 400;
     line-height: 36px;
     background-color: #FFF;
-    border: 1px solid #D8DDE6;
-    color: #52A1DE;
+    border: 1px solid #d8dde6;
+    color: #52a1de;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     border-radius: 4px;
@@ -1639,9 +1968,11 @@ ul.sub-menu {
     display: inline;
     zoom: 1;
     cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\0000371}}
     .data-entry input.entry-search-submit:hover, .data-entry input.entry-search-submit:focus, .data-entry input.entry-search-submit:visited:hover {
-      border: 1px solid #D8DDE6;
+      border: 1px solid #d8dde6;
       color: rgba(82, 161, 222, 0.56); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\0000387}}
   .data-entry .applied-tags {
     margin-top: 0px;
     padding: 0.5em 1em; }
@@ -1655,13 +1986,16 @@ ul.sub-menu {
 		padding: 0.668em 1em 0.718em 1em;
 	}
 }*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003103}}
 .input-group {
   display: table;
   width: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003107}}
 .input-cell {
   display: table-cell; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003110}}
 .input-cell .btn,
 .input-cell input[type="submit"],
 .input-cell input[type="text"],
@@ -1669,44 +2003,55 @@ ul.sub-menu {
 .input-cell textarea {
   width: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003117}}
 .entry-search .input-cell:first-child {
   width: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003120}}
 .entry-search .input-cell input,
 .entry-search .input-cell input.entry-search-submit {
   float: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003124}}
 .entry-search .input-cell input[type="submit"] {
   margin-left: 0.2em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003129}}
 .entries-filters {
   zoom: 1;
   border-bottom: 1px solid #ccc;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_mixins\.scss}line{font-family:\0000321}}
   .entries-filters:before, .entries-filters:after {
     display: table;
     content: "";
     line-height: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_mixins\.scss}line{font-family:\0000327}}
   .entries-filters:after {
     clear: both; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003134}}
 .entries-filters + .entries-filters {
   margin-top: 30px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003137}}
 .entries-menu {
   list-style: none;
   padding: 0;
   margin: 0;
   min-height: 1px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003143}}
 .container .entries-menu {
   font-size: 85%;
   margin: 0;
   float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003148}}
   .container .entries-menu li {
     float: right;
     padding: 0;
     margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003153}}
   .container .entries-menu li a,
   .container .entries-menu span.nolink {
     color: #888;
@@ -1722,43 +2067,53 @@ ul.sub-menu {
     -moz-transition: all 0.2s ease;
     -o-transition: all 0.2s ease;
     transition: all 0.2s ease; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003166}}
   .container .entries-menu span.nolink {
     color: #999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003169}}
   .container .entries-menu a.active,
   .container .entries-menu span.nolink.active {
     color: #222;
     border-color: #222;
     text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003175}}
   .container .entries-menu a:hover,
   .container .entries-menu a:focus {
     border-color: #999;
     text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003180}}
   .container .entries-menu:after {
     content: "";
     display: table;
     clear: right;
     line-height: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003186}}
   .container .entries-menu select {
     margin-bottom: 0.5em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003190}}
 .container .filter-options,
 .container .user-options {
   border: none;
   padding-top: 0;
   float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003196}}
   .container .filter-options li,
   .container .user-options li {
     float: left;
     margin: 0; }
 
 /* Entries */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003203}}
 table.entries {
   border-collapse: collapse; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003206}}
 .entries {
   border: none;
   margin: 30px 0;
   padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003211}}
   .entries li {
     padding: 30px 0;
     border-top: 1px solid #efefef;
@@ -1766,14 +2121,18 @@ table.entries {
     margin: 0;
     position: relative;
     list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003219}}
   .entries > li:first-child {
     border-top: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003222}}
   .entries > li > *:first-child {
     margin-top: 0;
     padding-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003226}}
   .entries > li > *:last-child {
     margin-bottom: 0;
     padding-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003232}}
   .entries caption {
     text-align: left;
     font-size: 115%;
@@ -1781,51 +2140,63 @@ table.entries {
     letter-spacing: 0.15em;
     border-bottom: 1px solid #ccc;
     border-bottom: 1px solid rgba(0, 0, 0, 0.15); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003242}}
   .entries thead th .index-wrap {
     display: table;
     width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003246}}
     .entries thead th .index-wrap .index {
       display: table-row; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003250}}
   .entries thead th a {
     display: table-cell;
     text-align: center;
     margin: 0;
     padding: 0.295em 0;
     border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003257}}
     .entries thead th a:hover {
       background-color: #666;
       color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003262}}
   .entries thead th a.active-index {
     background-color: #eee;
     color: #999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003268}}
   .entries tbody td,
   .entries tbody th {
     text-align: left;
     border-bottom: 1px solid #eee;
     border-bottom: 1px solid rgba(0, 0, 0, 0.035);
     padding: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003276}}
   .entries tbody th {
     width: 1.2em;
     padding-right: 0;
     text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003281}}
     .entries tbody th img {
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003285}}
   .entries .activity {
     color: #999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003288}}
   .entries tfoot th,
   .entries tfoot td {
     border-top: 1px solid #ccc;
     border-top: 1px solid rgba(0, 0, 0, 0.1);
     border-bottom: none;
     padding: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003295}}
   .entries .entry-id {
     display: block;
     overflow: hidden;
     width: 1.2em;
     height: 1.2em;
     margin: 0.5em 0 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003302}}
   .entries small.entry-id-before,
   .entries .entry-id:before {
     content: f0a1;
@@ -1835,11 +2206,14 @@ table.entries {
     margin-right: 1em;
     color: #aaa;
     font-weight: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003311}}
   .entries tbody tr:last-child th,
   .entries tbody tr:last-child td {
     border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003315}}
   .entries tbody tr.private {
     background-image: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003318}}
     .entries tbody tr.private .entry-title:before {
       font-family: "Fontcons";
       content: "\f023";
@@ -1847,65 +2221,84 @@ table.entries {
       color: #666;
       font-size: 120%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003328}}
 .container-block h4 span,
 .entries caption span {
   color: #aaa; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003332}}
 .entry-details {
   font-size: 85%;
   color: #999; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003336}}
 .entry-details-divider {
   margin-left: 0.5em;
   margin-right: 0.5em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003340}}
 .container-block .entry-details {
   padding: 0.7em 0 0.7em 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003347}}
 .entry p.entry-member-photo {
   display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003352}}
 .entry .entry-content {
   margin: 0 0 1em 0;
   position: relative;
   border: 1px solid #999;
   padding: 0.61803399em 1.61803399em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003359}}
 .entry .permalink {
   border: none;
   color: #bfbfbf; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003363}}
   .entry .permalink:hover {
     color: #000;
     border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003369}}
 .entry .entry-tags {
   margin: 1.61803399em 0.61803399em;
   padding: 0;
   color: #aaa; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003374}}
   .entry .entry-tags p {
     display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003377}}
   .entry .entry-tags .tags {
     margin: 0;
     padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003381}}
     .entry .entry-tags .tags li {
       margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003387}}
 .entry .entry-voting {
   margin: -0.61803399em 0 0 0;
   padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003392}}
 .entry .entry-status {
   visibility: hidden;
   margin: 0 0 1em 70px;
   padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003397}}
   .entry .entry-status span {
     margin-right: 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003401}}
 .entry:hover .entry-status {
   visibility: visible; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003404}}
 .entry .entry-date-at,
 .entry .entry-date-on {
   visibility: hidden;
   display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003409}}
 .entry .date,
 .entry .time {
   margin-left: 0.7em; }
 
 @media only all {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003417}}
   th.priority-6,
   td.priority-6,
   th.priority-5,
@@ -1920,22 +2313,27 @@ table.entries {
   td.priority-1 {
     display: none; } }
 @media (min-width: 20em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003434}}
   th.priority-1,
   td.priority-1 {
     display: table-cell; } }
 @media (min-width: 30em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003441}}
   th.priority-2,
   td.priority-2 {
     display: table-cell; } }
 @media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003448}}
   th.priority-3,
   td.priority-3 {
     display: table-cell; } }
 @media (min-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003455}}
   th.priority-4,
   td.priority-4 {
     display: table-cell; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003461}}
   .entry p.entry-member-photo {
     display: block;
     float: left;
@@ -1948,8 +2346,10 @@ table.entries {
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003474}}
   .entry .entry-content {
     margin: 0 0 1em 70px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003477}}
     .entry .entry-content:before, .entry .entry-content:after {
       content: "";
       position: absolute;
@@ -1960,12 +2360,14 @@ table.entries {
       border-color: transparent #999 transparent transparent;
       display: block;
       width: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003489}}
     .entry .entry-content:before {
       top: 10px;
       left: -20px;
       bottom: auto;
       border-width: 10px;
       border-color: transparent #999 transparent transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003496}}
     .entry .entry-content:after {
       top: 10px;
       left: -18px;
@@ -1973,13 +2375,16 @@ table.entries {
       border-width: 10px;
       border-color: transparent #fff transparent transparent; } }
 @media (min-width: 60em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003508}}
   th.priority-5,
   td.priority-5 {
     display: table-cell; } }
 @media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_layout\.scss}line{font-family:\00003515}}
   th.priority-6,
   td.priority-6 {
     display: table-cell; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000312}}
 input[type=text],
 input[type=password],
 input[type=email],
@@ -2001,6 +2406,7 @@ textarea {
   -moz-transition: all 0.1s ease-out;
   -o-transition: all 0.1s ease-out;
   transition: all 0.1s ease-out; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000329}}
   input[type=text]:hover, input[type=text]:focus,
   input[type=password]:hover,
   input[type=password]:focus,
@@ -2010,12 +2416,14 @@ textarea {
   textarea:focus {
     background-color: #fff;
     border-color: #222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000335}}
   input[type=text].disabled,
   input[type=password].disabled,
   input[type=email].disabled,
   textarea.disabled {
     color: #888;
     color: rgba(0, 0, 0, 0.5); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000339}}
     input[type=text].disabled:hover, input[type=text].disabled:focus,
     input[type=password].disabled:hover,
     input[type=password].disabled:focus,
@@ -2028,25 +2436,31 @@ textarea {
       border-color: #D9D9D9;
       border-color: rgba(0, 0, 0, 0.15); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000348}}
 .placeholder-support {
   color: #aaa; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000353}}
 #hubForm {
   position: relative;
   padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000357}}
   #hubForm label {
     display: block;
     color: #777;
     padding: 1.5em 0 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000362}}
   #hubForm input,
   #hubForm select,
   #hubForm textarea {
     margin-top: 0.25em;
     width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000369}}
   #hubForm input.option,
   #hubForm input[type="checkbox"],
   #hubForm input[type="radio"] {
     width: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000375}}
   #hubForm legend {
     display: block;
     position: absolute;
@@ -2060,25 +2474,31 @@ textarea {
     font-weight: 500;
     letter-spacing: 0.1em;
     line-height: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000389}}
     #hubForm legend:before, #hubForm legend:after {
       content: "";
       display: table;
       line-height: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\0000395}}
     #hubForm legend:after {
       clear: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003100}}
   #hubForm fieldset {
     background: #fff;
     border: 1px solid #e5e5e5;
     margin: 0 0 2em 0;
     position: relative;
     padding: 3em 2em 2em 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003107}}
     #hubForm fieldset fieldset {
       margin: 1.5em 0;
       padding: 0 1em 1.5em 1em;
       float: none;
       width: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003113}}
       #hubForm fieldset fieldset label {
         padding-top: 0.7em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003116}}
       #hubForm fieldset fieldset legend {
         float: none;
         position: static;
@@ -2094,66 +2514,86 @@ textarea {
         text-shadow: none;
         text-transform: none;
         font-size: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003135}}
   #hubForm .optional,
   #hubForm .required {
     text-transform: uppercase;
     font-size: xx-small; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003140}}
   #hubForm .required {
     color: red; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003143}}
   #hubForm .optional {
     color: #999; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003146}}
   #hubForm .hint {
     color: #999;
     font-size: 90%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003150}}
   #hubForm .inactive {
     color: #aa9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003154}}
   #hubForm .submit {
     padding: 1em 0 0 0;
     text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003158}}
     #hubForm .submit input {
       display: inline;
       width: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003164}}
   #hubForm span.warning,
   #hubForm span.information,
   #hubForm span.help,
   #hubForm span.error {
     margin: 0.5em 0 0 0;
     display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003171}}
   #hubForm .error p,
   #hubForm .warning p,
   #hubForm .information p,
   #hubForm .help p {
     margin: 1em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003178}}
   #hubForm ul {
     margin: 1em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003181}}
     #hubForm ul li {
       margin-left: 2em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003186}}
   #hubForm .explaination {
     background: #ccc;
     background: rgba(0, 0, 0, 0.05);
     position: relative;
     padding: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003192}}
     #hubForm .explaination > *:first-child {
       margin-top: 0;
       padding-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003196}}
     #hubForm .explaination > *:last-child {
       margin-bottom: 0;
       padding-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003203}}
   #hubForm.full fieldset {
     margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003207}}
   #hubForm.full .submit {
     margin-right: 0; }
 
 @media (min-width: 50em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003215}}
   #hubForm fieldset {
     margin-right: 270px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003218}}
     #hubForm fieldset fieldset {
       margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003222}}
   #hubForm .explaination {
     float: right;
     min-height: 1em;
     width: 240px;
     margin: 0 0 0 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003228}}
     #hubForm .explaination:after {
       content: "";
       width: 0;
@@ -2164,19 +2604,24 @@ textarea {
       position: absolute;
       right: 100%;
       top: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003240}}
   #hubForm .explaination + fieldset {
     margin-right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003243}}
   #hubForm .submit {
     margin-right: 270px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003250}}
 form.search fieldset {
   background: transparent;
   border: none;
   padding: 0;
   margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_forms\.scss}line{font-family:\00003256}}
   form.search fieldset input {
     width: auto;
     display: inline-block; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\0000311}}
 .fancybox-wrap,
 .fancybox-skin,
 .fancybox-outer,
@@ -2193,51 +2638,61 @@ form.search fieldset {
   outline: none;
   vertical-align: top; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\0000328}}
 .fancybox-wrap {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 8020; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\0000335}}
 .fancybox-skin {
   position: relative;
   background: transparent;
   color: #444;
   text-shadow: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\0000342}}
 .fancybox-opened {
   z-index: 8030; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\0000349}}
 .fancybox-outer,
 .fancybox-inner {
   position: relative;
   background: #f9f9f9;
   overflow: hidden; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\0000355}}
 .fancybox-outer {
   -webkit-box-shadow: "0 1px 8px rgba(0, 0, 0, 0.2)";
   -moz-box-shadow: "0 1px 8px rgba(0, 0, 0, 0.2)";
   box-shadow: "0 1px 8px rgba(0, 0, 0, 0.2)"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\0000359}}
 .fancybox-type-iframe .fancybox-inner {
   -webkit-overflow-scrolling: touch; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\0000363}}
 .fancybox-error {
   color: #444;
   margin: 0;
   padding: 15px;
   white-space: nowrap; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\0000370}}
 .fancybox-image,
 .fancybox-iframe {
   display: block;
   width: 100%;
   height: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\0000377}}
 .fancybox-image {
   max-width: 100%;
   max-height: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\0000382}}
 #fancybox-loading {
   position: fixed;
   top: 50%;
@@ -2248,6 +2703,7 @@ form.search fieldset {
   background: #000;
   border-radius: 0.5em;
   opacity: 0.8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\0000393}}
   #fancybox-loading div {
     cursor: pointer;
     z-index: 8060;
@@ -2266,6 +2722,7 @@ form.search fieldset {
     -moz-animation: fbload 1.1s infinite linear;
     -ms-animation: fbload 1.1s infinite linear;
     animation: fbload 1.1s infinite linear; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003113}}
   #fancybox-loading div,
   #fancybox-loading div:after {
     border-radius: 50%;
@@ -2278,6 +2735,7 @@ form.search fieldset {
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -2289,6 +2747,7 @@ form.search fieldset {
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
@@ -2300,11 +2759,13 @@ form.search fieldset {
     -moz-transform: rotate(0deg);
     -ms-transform: rotate(0deg);
     transform: rotate(0deg); }
+
   100% {
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -ms-transform: rotate(360deg);
     transform: rotate(360deg); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003163}}
 a.fancybox-close,
 .fancybox-close {
   position: absolute;
@@ -2326,16 +2787,19 @@ a.fancybox-close,
   transition: all ease-in-out 0.2s;
   border: none;
   color: #222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003182}}
   a.fancybox-close:before,
   .fancybox-close:before {
     content: "\2716";
     font-family: "Fontcons"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003186}}
   a.fancybox-close:hover,
   .fancybox-close:hover {
     text-decoration: none;
     color: #c00;
     border: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003193}}
 .fancybox-nav {
   position: absolute;
   top: 0;
@@ -2348,16 +2812,19 @@ a.fancybox-close,
   -webkit-tap-highlight-color: transparent;
   z-index: 8040; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003205}}
 a.fancybox-prev,
 .fancybox-prev {
   left: 0;
   border: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003211}}
 a.fancybox-next,
 .fancybox-next {
   right: 0;
   border: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003217}}
 .fancybox-nav span {
   position: absolute;
   top: 50%;
@@ -2367,17 +2834,21 @@ a.fancybox-next,
   cursor: pointer;
   z-index: 8040;
   visibility: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003227}}
   .fancybox-nav span:hover span {
     visibility: visible; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003231}}
 .fancybox-prev span {
   left: 10px;
   background-position: 0 -36px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003235}}
 .fancybox-next span {
   right: 10px;
   background-position: 0 -72px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003240}}
 .fancybox-tmp {
   position: absolute;
   top: -9999px;
@@ -2385,9 +2856,11 @@ a.fancybox-next,
   visibility: hidden; }
 
 /* Overlay helper */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003248}}
 .fancybox-lock {
   overflow: hidden; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003251}}
 .fancybox-overlay {
   position: absolute;
   top: 0;
@@ -2397,22 +2870,26 @@ a.fancybox-next,
   z-index: 8010;
   background: rgba(200, 200, 200, 0.9); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003260}}
 .fancybox-overlay-fixed {
   position: fixed;
   bottom: 0;
   right: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003265}}
 .fancybox-lock .fancybox-overlay {
   overflow: auto;
   overflow-y: scroll; }
 
 /* Title helper */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003271}}
 .fancybox-title {
   visibility: hidden;
   position: relative;
   text-shadow: none;
   z-index: 8050; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003279}}
 .fancybox-title-float-wrap {
   position: absolute;
   bottom: 0;
@@ -2420,6 +2897,7 @@ a.fancybox-next,
   margin-bottom: -35px;
   z-index: 8050;
   text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003287}}
   .fancybox-title-float-wrap .child {
     display: inline-block;
     margin-right: -100%;
@@ -2437,14 +2915,17 @@ a.fancybox-next,
     line-height: 24px;
     white-space: nowrap; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003305}}
 .fancybox-title-outside-wrap {
   position: relative;
   margin-top: 10px;
   color: #fff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003310}}
 .fancybox-title-inside-wrap {
   padding-top: 10px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_modal\.scss}line{font-family:\00003313}}
 .fancybox-title-over-wrap {
   position: absolute;
   bottom: 0;
@@ -2454,16 +2935,20 @@ a.fancybox-next,
   background: #000;
   background: rgba(0, 0, 0, 0.8); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\0000319}}
 #system-message {
   margin: 0 0 1.61803399em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\0000322}}
   #system-message ul,
   #system-message li {
     list-style: none;
     margin: 0;
     padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\0000328}}
   #system-message dt {
     display: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\0000333}}
 .info,
 .warning,
 .error,
@@ -2482,11 +2967,13 @@ a.fancybox-next,
   border-radius: 0.27em;
   background-color: #222; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\0000349}}
 .info,
 .warning,
 .error,
 .message {
   margin: 1em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\0000354}}
   .info h3,
   .info h4,
   .warning h3,
@@ -2496,6 +2983,7 @@ a.fancybox-next,
   .message h3,
   .message h4 {
     color: #fff !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\0000357}}
     .info h3:first-child,
     .info h4:first-child,
     .warning h3:first-child,
@@ -2505,12 +2993,14 @@ a.fancybox-next,
     .message h3:first-child,
     .message h4:first-child {
       margin-top: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\0000361}}
   .info a,
   .warning a,
   .error a,
   .message a {
     color: #fff !important;
     border-bottom: 1px dotted #eee !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\0000365}}
   .info a:hover,
   .warning a:hover,
   .error a:hover,
@@ -2518,6 +3008,7 @@ a.fancybox-next,
     color: #fff !important;
     border-bottom: 1px solid #fff !important; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\0000371}}
 span.info,
 span.warning,
 span.error,
@@ -2527,33 +3018,39 @@ span.message {
   margin: 0;
   padding: 0.41803399em 0.41803399em 0.41803399em 2.31803399em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\0000381}}
 #system-message dd {
   margin: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\0000385}}
 .message,
 #system-message dd.message {
   background-color: #a3ca60;
-  color: #fff;
+  color: white;
   border-color: #a3ca60; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\0000389}}
 .info,
 #system-message dd.info {
   background-color: #6fb6ff;
-  color: #fff;
+  color: white;
   border-color: #6fb6ff; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\0000393}}
 .warning,
 #system-message dd.warning {
   background-color: #fbaf41;
-  color: #fff;
+  color: white;
   border-color: #fbaf41; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\0000398}}
 .error,
 #system-message dd.error {
   background-color: #dd5555;
-  color: #fff;
+  color: white;
   border-color: #e84c3d; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\00003102}}
 .info:before,
 .warning:before,
 .error:before,
@@ -2571,27 +3068,33 @@ span.message {
   content: 2714;
   font-family: "Fontcons"; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\00003118}}
 .message:before,
 #system-message dd.message:before {
   content: 2714;
   top: 0.71803399em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\00003123}}
 .error:before,
 #system-message dd.error:before {
   content: f094; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\00003127}}
 .warning:before,
 #system-message dd.warning:before {
   content: 26A0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\00003131}}
 .info:before,
 #system-message dd.info:before {
   content: f05a;
   left: 0.71803399em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\00003137}}
 #system-message-container {
   display: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\00003142}}
 .growl {
   position: fixed;
   top: 30%;
@@ -2601,9 +3104,11 @@ span.message {
   min-width: 20em;
   max-width: 40em;
   text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\00003152}}
   .growl #system-message {
     margin: 0;
     padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\00003156}}
     .growl #system-message dd {
       padding: 1.15em 2em 1.05em 5em;
       font-weight: 500;
@@ -2613,8 +3118,10 @@ span.message {
       font-size: 1.1em;
       min-height: 1.6em;
       margin-bottom: 1em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\00003164}}
       .growl #system-message dd li {
         line-height: 1.3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\00003168}}
       .growl #system-message dd:before {
         font-size: 2.9em;
         line-height: 1;
@@ -2625,6 +3132,7 @@ span.message {
         height: auto;
         background: rgba(0, 0, 0, 0.1);
         text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\00003182}}
   .growl .growl-close {
     display: block;
     position: absolute;
@@ -2638,16 +3146,19 @@ span.message {
     text-align: center;
     color: #333;
     color: rgba(0, 0, 0, 0.2); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\00003196}}
     .growl .growl-close:before {
       content: "\2716";
       font-family: "Fontcons";
       display: block;
       margin: 0 0 1em 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_notification\.scss}line{font-family:\00003202}}
     .growl .growl-close:hover {
       color: #fff;
       text-decoration: none;
       border: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_pagination\.scss}line{font-family:\0000311}}
 .list-footer {
   margin: 1.6em 0;
   padding: 0;
@@ -2659,39 +3170,48 @@ span.message {
   font-size: 11px;
   border-top: 1px solid #ccc;
   border-top: 1px solid rgba(0, 0, 0, 0.15); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_mixins\.scss}line{font-family:\0000321}}
   .list-footer:before, .list-footer:after {
     display: table;
     content: "";
     line-height: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_mixins\.scss}line{font-family:\0000327}}
   .list-footer:after {
     clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_pagination\.scss}line{font-family:\0000323}}
   .list-footer li {
     float: left;
     margin: 0;
     padding: 0;
     background-image: none;
     list-style: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_pagination\.scss}line{font-family:\0000330}}
   .list-footer .counter {
     float: right;
     padding: 0.5em 0.75em;
     color: #919191;
     border-left: none;
     display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_pagination\.scss}line{font-family:\0000339}}
   .list-footer .limit {
     padding: 0.5em 0.75em;
     padding-right: 0.8em;
     color: #919191;
     float: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_pagination\.scss}line{font-family:\0000345}}
   .list-footer .start {
     margin-left: 0;
     padding-left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_pagination\.scss}line{font-family:\0000349}}
   .list-footer .next,
   .list-footer .prev {
     display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_pagination\.scss}line{font-family:\0000353}}
   .list-footer input,
   .list-footer label {
     display: inline;
     width: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_pagination\.scss}line{font-family:\0000359}}
   .list-footer span,
   .list-footer strong,
   .list-footer a,
@@ -2705,16 +3225,19 @@ span.message {
     vertical-align: middle;
     outline: 0;
     text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_pagination\.scss}line{font-family:\0000375}}
   .list-footer span {
     padding: 0.5em 0.75em;
     color: #999;
     font-weight: 400;
     position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_pagination\.scss}line{font-family:\0000383}}
   .list-footer strong {
     padding: 0.5em 0.75em;
     color: #555;
     font-weight: 500;
     border-color: #222; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_pagination\.scss}line{font-family:\0000391}}
   .list-footer a,
   .list-footer a:visited {
     padding: 0.5em 0.75em;
@@ -2725,17 +3248,21 @@ span.message {
     font-weight: 400;
     cursor: pointer;
     position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_pagination\.scss}line{font-family:\00003100}}
     .list-footer a:hover,
     .list-footer a:visited:hover {
       border-color: #999; }
 
 @media (min-width: 40em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_pagination\.scss}line{font-family:\00003108}}
   .list-footer .counter {
     display: block; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tags\.scss}line{font-family:\0000312}}
 .tags {
   margin-left: 0;
   font-size: 0.85em !important;
   border: none !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tags\.scss}line{font-family:\0000317}}
   .tags li {
     display: inline-block !important;
     display: inline;
@@ -2743,6 +3270,7 @@ span.message {
     margin: 0.25em 0.2em 0.25em 0 !important;
     border: none !important; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tags\.scss}line{font-family:\0000325}}
 .tag {
   position: relative;
   display: inline-block !important;
@@ -2757,6 +3285,7 @@ span.message {
   -webkit-border-radius: 0 3px 3px 0 !important;
   -moz-border-radius: 0 3px 3px 0 !important;
   border-radius: 0 3px 3px 0 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tags\.scss}line{font-family:\0000337}}
   .tag span {
     background-color: #fdefd3;
     background-color: rgba(255, 255, 255, 0.2);
@@ -2768,29 +3297,35 @@ span.message {
     -webkit-border-radius: 0 3px 3px 0 !important;
     -moz-border-radius: 0 3px 3px 0 !important;
     border-radius: 0 3px 3px 0 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tags\.scss}line{font-family:\0000347}}
   .tag:hover {
     color: #5a2d00 !important;
     background: #f3ae22 !important;
     border: none !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tags\.scss}line{font-family:\0000352}}
     .tag:hover span {
       background-color: #f6c052;
       background-color: rgba(255, 255, 255, 0.2); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tags\.scss}line{font-family:\0000358}}
   .tag:before {
     display: none !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tags\.scss}line{font-family:\0000362}}
   .tag.admin {
-    color: #888 !important;
+    color: #888888 !important;
     background: #fee4de !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tags\.scss}line{font-family:\0000366}}
     .tag.admin:hover {
-      color: #333 !important;
+      color: #333333 !important;
       background: #fdd9d0 !important; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tooltip\.scss}line{font-family:\0000312}}
 .tooltip {
   min-width: 50px;
   max-width: 200px;
   z-index: 1030;
   font-size: 0.85em !important;
   padding: 0.5em 1em !important;
-  color: #eee !important;
+  color: #eeeeee !important;
   border: none !important;
   -webkit-border-radius: 0.25em;
   -moz-border-radius: 0.25em;
@@ -2801,6 +3336,7 @@ span.message {
   box-sizing: border-box;
   position: absolute;
   float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tooltip\.scss}line{font-family:\0000327}}
   .tooltip:after {
     content: "";
     border-color: #252525 transparent transparent transparent;
@@ -2814,13 +3350,16 @@ span.message {
     bottom: -4px;
     left: 50%;
     margin-left: -4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tooltip\.scss}line{font-family:\0000342}}
   .tooltip.bottom:after {
     bottom: auto;
     top: -4px;
     border-color: transparent transparent #252525 transparent;
     border-width: 0 4px 4px 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tooltip\.scss}line{font-family:\0000349}}
   .tooltip.left {
     margin-top: 2.5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tooltip\.scss}line{font-family:\0000351}}
     .tooltip.left:after {
       bottom: auto;
       left: auto;
@@ -2830,6 +3369,7 @@ span.message {
       margin-top: -4px;
       border-color: transparent transparent transparent #252525;
       border-width: 4px 0 4px 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tooltip\.scss}line{font-family:\0000363}}
   .tooltip.right:after {
     bottom: auto;
     margin-left: 0;
@@ -2838,22 +3378,28 @@ span.message {
     margin-top: -4px;
     border-color: transparent #252525 transparent transparent;
     border-width: 4px 4px 4px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tooltip\.scss}line{font-family:\0000374}}
   .tooltip .tooltip-title {
     display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tooltip\.scss}line{font-family:\0000379}}
   .tooltip .tooltip-text table.wiki-reference tbody td {
     border-color: #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_tooltip\.scss}line{font-family:\0000382}}
   .tooltip img {
     -webkit-border-radius: 0.25em;
     -moz-border-radius: 0.25em;
     border-radius: 0.25em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_footer\.scss}line{font-family:\0000323}}
 #footer {
   padding: 0;
   color: white;
   font-size: 0.9em;
-  background: #343A42; }
+  background: #343a42; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_footer\.scss}line{font-family:\0000329}}
   #footer h2 {
     display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_footer\.scss}line{font-family:\0000332}}
   #footer h3 {
     margin: 0;
     padding: 0 0 1em 0;
@@ -2861,59 +3407,75 @@ span.message {
     font-size: 1em;
     font-weight: 600;
     letter-spacing: 0.15em;
-    color: #C1C1C1; }
+    color: #c1c1c1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_footer\.scss}line{font-family:\0000341}}
   #footer a {
     color: white;
     border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_footer\.scss}line{font-family:\0000345}}
     #footer a:hover {
-      color: #52A1DE;
+      color: #52a1de;
       border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_footer\.scss}line{font-family:\0000350}}
   #footer ul {
     list-style: none;
     margin: 0 0 20px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_footer\.scss}line{font-family:\0000354}}
   #footer li {
     padding: 0.4em 0;
     margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_footer\.scss}line{font-family:\0000360}}
   #footer #ancillary {
     padding: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_footer\.scss}line{font-family:\0000363}}
     #footer #ancillary a:before {
       color: rgba(0, 0, 0, 0.2);
       margin-right: 0.5em; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_footer\.scss}line{font-family:\0000369}}
   #footer .inner {
     clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_footer\.scss}line{font-family:\0000373}}
   #footer #legalese {
     padding: 30px;
     overflow: hidden;
     font-size: 0.85em;
     color: white;
-    background: #343A42;
+    background: #343a42;
     text-align: center;
     zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_footer\.scss}line{font-family:\0000382}}
     #footer #legalese li {
       display: inline;
       margin-left: 2em;
       text-shadow: none;
       color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_footer\.scss}line{font-family:\0000388}}
     #footer #legalese .policy {
       position: absolute;
       margin: 0 auto;
       line-height: 1.2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_footer\.scss}line{font-family:\0000393}}
     #footer #legalese a {
       color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_footer\.scss}line{font-family:\0000396}}
       #footer #legalese a:hover {
-        color: #52A1DE;
+        color: #52a1de;
         border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_mixins\.scss}line{font-family:\0000321}}
     #footer #legalese:before, #footer #legalese:after {
       display: table;
       content: "";
       line-height: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_mixins\.scss}line{font-family:\0000327}}
     #footer #legalese:after {
       clear: both; }
 
 @media (min-width: 70em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_footer\.scss}line{font-family:\00003107}}
   #footer #ancillary,
   #footer ul#legalese {
     padding: 30px 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/_footer\.scss}line{font-family:\00003111}}
     #footer #ancillary .policy,
     #footer ul#legalese .policy {
       left: 60px; } }
