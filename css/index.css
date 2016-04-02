@@ -385,20 +385,19 @@ h6 {
 h2 {
   line-height: 1.3;
   font-size: 1.9em;
-  font-weight: 300;
-  letter-spacing: 0.15em; }
+  font-weight: 300; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003117}}
 h3 {
   font-size: 1.4em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003120}}
 h4,
 h5,
 h6 {
   font-size: 1.1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003128}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003127}}
 blockquote {
   padding: 0 0 0 1.5em;
   color: #888;
@@ -409,7 +408,7 @@ blockquote {
   margin: 1.5em 0; }
 
 /* Table */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003139}}
 table {
   clear: left;
   width: 100%;
@@ -417,7 +416,7 @@ table {
   font-size: 1em;
   border-collapse: collapse;
   border-bottom: 1px dashed #dadada; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003147}}
   table caption {
     line-height: 1.6em;
     padding: 0.4045084975em 0.61803399em;
@@ -428,23 +427,23 @@ table {
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     hyphens: auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003159}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003158}}
   table th,
   table td {
     vertical-align: top;
     line-height: 1.6em;
     padding: 0.4045084975em 0.61803399em;
     border-bottom: 1px solid #dadada; }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003165}}
   table th {
     font-weight: bold;
     white-space: nowrap; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003172}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003171}}
 #splash .inner-wrap .inner .wrap {
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/amy\/Documents\/matin_template\/scss\/index\.scss}line{font-family:\00003176}}
 #content-header {
   display: flex;
   justify-content: space-between;
